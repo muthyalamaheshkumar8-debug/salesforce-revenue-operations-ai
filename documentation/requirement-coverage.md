@@ -1,0 +1,22 @@
+# Requested requirement coverage
+
+Every row has an implementation or explicit external evidence gap. No native platform execution has been independently verified.
+
+| Requirement | Available in this package | Included artifact | Still required |
+|---|---|---|---|
+| Zapier | Setup ready: Authenticated webhook receiver, opportunity contract and Catch Hook setup guide | `zapier/production-setup.md` | Create a Zap, configure its bearer-authenticated API action and retain a successful Zap run ID. |
+| Knowledge repository | Implemented locally: Searchable, versioned sales-support playbooks with owners, audiences and review dates | `documentation/knowledge-repository.json` | Use the repository with real sales users and record feedback; no employer adoption claimed. |
+| Training sales teams | Practice ready: Three lessons, scored assessments and downloadable session completion records | `documentation/training-courses.json` | Facilitate an actual session and retain attendee consent, attendance and feedback. |
+| Sales engagement platforms | Import ready: Gong, Apollo, Outreach and Salesloft normalized-export review with deal matching and exceptions | `integrations/engagement-contract.json` | Supply an authorized platform export or connect an account; uploaded provenance is unverified. |
+| Acquisition / new business integration | Implemented locally: Business-line mapping rehearsal, account/owner validation, duplicate detection and all-or-nothing export gate | `documentation/acquisition-runbook.md` | Run against authorized business records, gain owner sign-off and verify post-migration reconciliation. |
+| Looker | Setup ready: LookML model, view and dashboard definition for the existing PostgreSQL schema | `looker/revenue_operations.model.lkml` | Configure a Looker connection, validate LookML, run the dashboard and retain evidence. |
+| Gong | Import ready: Call-record import validation and coaching next-step review | `integrations/engagement-contract.json` | Supply authorized Gong call metadata; native Gong API/account access is not configured. |
+| Apollo | Import ready: Email/meeting activity normalization and CRM opportunity matching | `integrations/engagement-contract.json` | Supply authorized Apollo activity exports; native Apollo account access is not configured. |
+| Salesforce developer collaboration | Handoff ready: Developer backlog with acceptance criteria, risk, test notes and review-receipt export | `documentation/developer-handoff.json` | Have an actual developer review the changes; do not claim collaboration from a template. |
+| Native Salesforce reports | Setup ready: Native Metadata API report XML and report-folder assets plus sandbox deployment/run instructions | `salesforce/force-app/main/default/reports/Revenue_Operations/Won_Revenue.report-meta.xml` | Deploy in your sandbox, run the report and retain report ID, run time and totals. |
+| Salesforce production integration | Setup ready: Existing read-only REST extractor plus authenticated external event ingress and evidence recorder | `python/salesforce_extract.py` | Configure an authorized org, verify extraction; production changes need separate change control. |
+| Live n8n automation | Setup ready: Existing native workflow plus authenticated backend webhook ingress and idempotency | `n8n/production-setup.md` | Activate in n8n, run a real event and record its execution ID; local API tests are not native runs. |
+| Native Power BI dashboard | Setup ready: Existing Power Query, DAX, theme and page kit with Desktop acceptance checklist | `powerbi/native-acceptance.md` | Author and refresh the PBIX in Power BI Desktop; no fabricated PBIX or Desktop screenshot. |
+| Professional sales-team communication | Drafts ready: Sales / CSM / Marketing review brief generated from the reviewed sample and decision-log templates | `documentation/stakeholder-communication.md` | Present to real stakeholders and retain decision notes; no message is sent from the app. |
+| Sales compensation payouts | Rehearsal ready: Cent-based scenario ledger with calculated → reviewed → approved transitions and export | `backend/operations.py` | Use an approved company plan and finance controls; app never issues payments or claims employer payouts. |
+| Salesforce hands-on experience | Practice ready: Sandbox lab checklist, native report deployment assets and evidence checklist | `salesforce/sandbox-lab.md` | Complete the labs in an actual Salesforce sandbox; portfolio preparation is not professional administration. |

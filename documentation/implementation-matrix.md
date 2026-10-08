@@ -26,3 +26,7 @@
 | 22 README | Overview, stack, data, API, AI, automation, validation and limits documented | Source sample is fictional |
 | 23 Screenshots | Live deployed browser capture supplied with package | No fabricated native screenshots |
 | 24 Resume | Evidence-based project bullets updated | Claim only implemented work |
+
+## Additional job-requirement coverage
+
+See [requirement-coverage.md](requirement-coverage.md) for all 16 requested additions. Functional local practice and prepared native assets are distinct from external execution and actual human participation.

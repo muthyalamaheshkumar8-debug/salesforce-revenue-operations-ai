@@ -1,0 +1,20 @@
+{
+  "format": "JSON array, at most 500 rows, less than 1 MB",
+  "platforms": [
+    "Gong",
+    "Apollo",
+    "Outreach",
+    "Salesloft"
+  ],
+  "required_fields": {
+    "activity_id": "non-empty unique string",
+    "opportunity_id": "existing CRM opportunity_id",
+    "activity_date": "valid YYYY-MM-DD",
+    "type": "call | email | meeting (Gong: call only)",
+    "outcome": "scheduled | completed | replied | no_response",
+    "next_step": "non-empty string"
+  },
+  "native_api_connected": false,
+  "privacy": "Only authorized activity metadata. Do not include transcripts, emails, personal phone numbers or API keys.",
+  "source_classification": "User-supplied, platform origin unverified"
+}

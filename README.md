@@ -5,6 +5,17 @@
 
 ![Executive dashboard](demo/dashboard-preview.jpg)
 
+
+## Updated operations workspace
+
+Start with **[documentation/START-HERE.md](documentation/START-HERE.md)**. Open the bundled `dashboard.html` for a portable local app with all 13 views. Existing CRM analytics and source records are preserved.
+
+Added searchable/versioned sales-support playbooks, three scored training exercises, normalized Gong/Apollo/Outreach/Salesloft export validation, business-line mapping dry-runs, cent-rounded commission review rehearsal, developer handoff backlog and Sales/CSM/Marketing brief drafts. **Integrations** explicitly lists all 16 requested requirements and the evidence still needed. These features demonstrate portfolio implementation; actual team training, developer collaboration, employer communication and real compensation processing are not claimed.
+
+The backend adds authenticated Zapier/n8n event ingress, role-separated durable commission rehearsal and self-attested evidence receipts. Native Salesforce Report XML and a LookML model/dashboard kit are included. Native Salesforce, Looker, Zapier, n8n, Gong/Apollo and Power BI execution remain pending connected environments. See [operations API](documentation/operations-api.md) and [requirement coverage](documentation/requirement-coverage.md). No messages, CRM changes or payments were performed.
+
+The live dashboard preserves the existing URL. The demo walkthrough and screenshots show the operations update; native platform execution remains separately unverified.
+
 ## 1. Overview
 A public CRM sample turned into inspectable sales reporting, operational review rules, data-quality checks and simulated commissions. Includes React pages, a runnable API, LangChain analysis code and an n8n workflow template.
 
@@ -14,7 +25,7 @@ Reliable CRM records are required before a team can value pipeline, compare perf
 ## 3. Live demo
 https://mahesh-revenue-operations.r58144805.chatgpt.site
 
-Seven views: Executive overview, Pipeline review, AI Insights, Sales performance, Compensation, Data quality, Project & methods. The site uses an API-loaded published snapshot; it is not a continuous Salesforce feed. The separate FastAPI service is not publicly deployed.
+Thirteen views in this updated package: Executive overview, Pipeline review, AI Insights, Sales performance, Compensation, Data quality, Integrations, Sales enablement, Engagement, New business, Payout review, Team handoff, Project & methods. The latest operations workspace is published at the same live URL. The site uses an API-loaded published snapshot; it is not a continuous Salesforce feed. The separate FastAPI service is not publicly deployed.
 
 ## 4. Technology stack
 Implemented: Python, Pandas notebooks, SQL, JavaScript/React, FastAPI, LangChain prompt/parser chain and Git source history. Prepared integrations: Salesforce REST, PostgreSQL, Power BI and n8n. CSVs are Excel-compatible. See the detailed status matrix in documentation/implementation-matrix.md.
@@ -37,7 +48,7 @@ Lead, Account, Contact and Opportunity fields are specified in salesforce/data-m
 salesforce/starter/opportunities_500.csv is a deterministic 500-record closed-deal subset. All 6,711 closed source deals are also supplied. Open deals require valid source CloseDate before native import; dates are not fabricated.
 
 ## 10. Salesforce reports
-Six report specifications and an executive dashboard specification cover pipeline stages, rep/region revenue, won/lost, monthly value and scenario target achievement. These are configuration assets, not deployed native reports.
+Six report specifications and an executive dashboard specification cover pipeline stages, rep/region revenue, won/lost, monthly value and scenario target achievement. These are configuration assets, not deployed native reports. Native Metadata API Report/ReportFolder XML has now been added with a sandbox dry-run/deployment guide in `salesforce/native-reports.md`; native deployment remains unverified.
 
 ## 11. Cleaning
 python/data_cleaning.py verifies source hashes, IDs, relationships, closed-deal values and date order. 1,480 product keys map GTXPro to GTX Pro; source bytes remain unchanged.
@@ -91,10 +102,10 @@ python python/run_notebooks.py
 python -m venv .venv
 .venv/bin/pip install -r backend/requirements.lock.txt
 .venv/bin/python -m unittest discover -s tests/revenue -p 'test_*.py'
-node --test tests/revenue/metrics.test.mjs tests/revenue/n8n.test.mjs
+node --test tests/revenue/*.test.mjs
 .venv/bin/uvicorn backend.app:app --host 127.0.0.1 --port 8000
 ```
-Notebooks require Pandas. The backend lock records installed/tested dependency versions. Eighteen tests passed (ten Python, eight JavaScript): reconciliation, scoped metrics, routes/auth/pagination, unavailable LLM, output validation, currency and retry conflicts. External native integrations were not exercised.
+Notebooks require Pandas. The backend lock records installed/tested dependency versions. Twenty-nine automated tests passed (sixteen Python, thirteen JavaScript): reconciliation, scoped metrics, routes/auth/pagination, unavailable LLM, output validation, currency and retry conflicts. External native integrations were not exercised.
 
 Source/data stay in src/content/ and src/data.json. Use the supported Data builder per AGENTS.md and preserve identity. Offline HTML is precompiled. Do not use --regenerate on the public sample; the old synthetic fixture is regression-only.
 
@@ -102,3 +113,9 @@ Source/data stay in src/content/ and src/data.json. Use the supported Data build
 Documentation contains SOP, data/KPI definitions, architecture, blueprint coverage, recruiter walkthrough and resume wording. The public source repository is [salesforce-revenue-operations-ai](https://github.com/muthyalamaheshkumar8-debug/salesforce-revenue-operations-ai). The live dashboard is deployed separately at the link above; its hosting repository preserves the published app identity. The sample video uses actual browser captures of the public app, with explanatory captions. Do not claim production Salesforce, PostgreSQL, Power BI, n8n, live LLM usage or employer impact before verification.
 
 [GitHub profile](https://github.com/muthyalamaheshkumar8-debug) · [LinkedIn](https://www.linkedin.com/in/maheshkumar-muthyala-51351b270)
+
+## Latest live workspace captures
+
+[Live dashboard](https://mahesh-revenue-operations.r58144805.chatgpt.site) · [42-second walkthrough video](demo/operations-update/revenue-operations-walkthrough.mp4) · [All seven live screenshots](demo/operations-update/README.md)
+
+![Integration and capability coverage](demo/operations-update/revenue-integrations.jpg)

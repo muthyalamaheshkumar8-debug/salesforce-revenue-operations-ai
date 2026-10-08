@@ -8,6 +8,8 @@ from typing import Literal
 from backend.analytics import read_rows, select, summary, quality, insights, brief
 
 app = FastAPI(title='Salesforce Revenue Operations AI',version='1.0.0')
+from backend.operations import router as operations_router
+app.include_router(operations_router)
 
 def data(region=None,rep=None,product=None,month=None):
     return select(read_rows('opportunities'),{'region':region,'rep':rep,'product':product,'month':month})

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SF-001",
+    "title": "Deploy Revenue Operations report folder and Won Revenue report",
+    "owner_role": "Salesforce developer",
+    "status": "Awaiting reviewer",
+    "acceptance": "Deploy in sandbox, open report, verify stage filter and summed Amount; record report ID and native run timestamp.",
+    "risk": "Report field aliases and org permission differences",
+    "artifact": "salesforce/force-app/main/default/reports",
+    "reviewer": null
+  },
+  {
+    "id": "SF-002",
+    "title": "Verify read-only extraction and currency handling",
+    "owner_role": "Salesforce developer",
+    "status": "Awaiting reviewer",
+    "acceptance": "Run paginated REST extraction on a least-privilege account; verify row counts and multi-currency setting. No CRM records changed.",
+    "risk": "API quotas, field permissions, currency settings",
+    "artifact": "python/salesforce_extract.py",
+    "reviewer": null
+  },
+  {
+    "id": "SF-003",
+    "title": "Review new business-line crosswalk",
+    "owner_role": "RevOps / Salesforce developer",
+    "status": "Awaiting reviewer",
+    "acceptance": "Approve account and owner mappings, source external IDs, stage translation, close dates, rollback plan and currency reconciliation.",
+    "risk": "Duplicate IDs or orphan account/owner relationships",
+    "artifact": "documentation/acquisition-runbook.md",
+    "reviewer": null
+  },
+  {
+    "id": "BI-001",
+    "title": "Author and reconcile native Power BI report",
+    "owner_role": "BI developer",
+    "status": "Awaiting reviewer",
+    "acceptance": "Open in Desktop, refresh all tables, verify measures against sample totals, save PBIX and capture the actual report.",
+    "risk": "Date parsing and native model relationships",
+    "artifact": "powerbi/native-acceptance.md",
+    "reviewer": null
+  }
+]

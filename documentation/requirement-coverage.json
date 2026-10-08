@@ -1,0 +1,146 @@
+[
+  {
+    "id": "zapier",
+    "requirement": "Zapier",
+    "status": "Setup ready",
+    "implemented": "Authenticated webhook receiver, opportunity contract and Catch Hook setup guide",
+    "artifact": "zapier/production-setup.md",
+    "next_step": "Create a Zap, configure its bearer-authenticated API action and retain a successful Zap run ID.",
+    "external_verified": false
+  },
+  {
+    "id": "knowledge",
+    "requirement": "Knowledge repository",
+    "status": "Implemented locally",
+    "implemented": "Searchable, versioned sales-support playbooks with owners, audiences and review dates",
+    "artifact": "documentation/knowledge-repository.json",
+    "next_step": "Use the repository with real sales users and record feedback; no employer adoption claimed.",
+    "external_verified": false
+  },
+  {
+    "id": "training",
+    "requirement": "Training sales teams",
+    "status": "Practice ready",
+    "implemented": "Three lessons, scored assessments and downloadable session completion records",
+    "artifact": "documentation/training-courses.json",
+    "next_step": "Facilitate an actual session and retain attendee consent, attendance and feedback.",
+    "external_verified": false
+  },
+  {
+    "id": "engagement",
+    "requirement": "Sales engagement platforms",
+    "status": "Import ready",
+    "implemented": "Gong, Apollo, Outreach and Salesloft normalized-export review with deal matching and exceptions",
+    "artifact": "integrations/engagement-contract.json",
+    "next_step": "Supply an authorized platform export or connect an account; uploaded provenance is unverified.",
+    "external_verified": false
+  },
+  {
+    "id": "acquisition",
+    "requirement": "Acquisition / new business integration",
+    "status": "Implemented locally",
+    "implemented": "Business-line mapping rehearsal, account/owner validation, duplicate detection and all-or-nothing export gate",
+    "artifact": "documentation/acquisition-runbook.md",
+    "next_step": "Run against authorized business records, gain owner sign-off and verify post-migration reconciliation.",
+    "external_verified": false
+  },
+  {
+    "id": "looker",
+    "requirement": "Looker",
+    "status": "Setup ready",
+    "implemented": "LookML model, view and dashboard definition for the existing PostgreSQL schema",
+    "artifact": "looker/revenue_operations.model.lkml",
+    "next_step": "Configure a Looker connection, validate LookML, run the dashboard and retain evidence.",
+    "external_verified": false
+  },
+  {
+    "id": "gong",
+    "requirement": "Gong",
+    "status": "Import ready",
+    "implemented": "Call-record import validation and coaching next-step review",
+    "artifact": "integrations/engagement-contract.json",
+    "next_step": "Supply authorized Gong call metadata; native Gong API/account access is not configured.",
+    "external_verified": false
+  },
+  {
+    "id": "apollo",
+    "requirement": "Apollo",
+    "status": "Import ready",
+    "implemented": "Email/meeting activity normalization and CRM opportunity matching",
+    "artifact": "integrations/engagement-contract.json",
+    "next_step": "Supply authorized Apollo activity exports; native Apollo account access is not configured.",
+    "external_verified": false
+  },
+  {
+    "id": "developer",
+    "requirement": "Salesforce developer collaboration",
+    "status": "Handoff ready",
+    "implemented": "Developer backlog with acceptance criteria, risk, test notes and review-receipt export",
+    "artifact": "documentation/developer-handoff.json",
+    "next_step": "Have an actual developer review the changes; do not claim collaboration from a template.",
+    "external_verified": false
+  },
+  {
+    "id": "reports",
+    "requirement": "Native Salesforce reports",
+    "status": "Setup ready",
+    "implemented": "Native Metadata API report XML and report-folder assets plus sandbox deployment/run instructions",
+    "artifact": "salesforce/force-app/main/default/reports/Revenue_Operations/Won_Revenue.report-meta.xml",
+    "next_step": "Deploy in your sandbox, run the report and retain report ID, run time and totals.",
+    "external_verified": false
+  },
+  {
+    "id": "salesforce-production",
+    "requirement": "Salesforce production integration",
+    "status": "Setup ready",
+    "implemented": "Existing read-only REST extractor plus authenticated external event ingress and evidence recorder",
+    "artifact": "python/salesforce_extract.py",
+    "next_step": "Configure an authorized org, verify extraction; production changes need separate change control.",
+    "external_verified": false
+  },
+  {
+    "id": "n8n",
+    "requirement": "Live n8n automation",
+    "status": "Setup ready",
+    "implemented": "Existing native workflow plus authenticated backend webhook ingress and idempotency",
+    "artifact": "n8n/production-setup.md",
+    "next_step": "Activate in n8n, run a real event and record its execution ID; local API tests are not native runs.",
+    "external_verified": false
+  },
+  {
+    "id": "powerbi",
+    "requirement": "Native Power BI dashboard",
+    "status": "Setup ready",
+    "implemented": "Existing Power Query, DAX, theme and page kit with Desktop acceptance checklist",
+    "artifact": "powerbi/native-acceptance.md",
+    "next_step": "Author and refresh the PBIX in Power BI Desktop; no fabricated PBIX or Desktop screenshot.",
+    "external_verified": false
+  },
+  {
+    "id": "communication",
+    "requirement": "Professional sales-team communication",
+    "status": "Drafts ready",
+    "implemented": "Sales / CSM / Marketing review brief generated from the reviewed sample and decision-log templates",
+    "artifact": "documentation/stakeholder-communication.md",
+    "next_step": "Present to real stakeholders and retain decision notes; no message is sent from the app.",
+    "external_verified": false
+  },
+  {
+    "id": "payout",
+    "requirement": "Sales compensation payouts",
+    "status": "Rehearsal ready",
+    "implemented": "Cent-based scenario ledger with calculated \u2192 reviewed \u2192 approved transitions and export",
+    "artifact": "backend/operations.py",
+    "next_step": "Use an approved company plan and finance controls; app never issues payments or claims employer payouts.",
+    "external_verified": false
+  },
+  {
+    "id": "admin",
+    "requirement": "Salesforce hands-on experience",
+    "status": "Practice ready",
+    "implemented": "Sandbox lab checklist, native report deployment assets and evidence checklist",
+    "artifact": "salesforce/sandbox-lab.md",
+    "next_step": "Complete the labs in an actual Salesforce sandbox; portfolio preparation is not professional administration.",
+    "external_verified": false
+  }
+]

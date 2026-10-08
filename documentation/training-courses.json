@@ -1,0 +1,101 @@
+[
+  {
+    "id": "CRM-101",
+    "title": "CRM hygiene and forecast review",
+    "audience": "Sales representatives",
+    "minutes": 15,
+    "knowledge_ids": [
+      "KB-001",
+      "KB-003"
+    ],
+    "lesson": "Confirm required fields and distinguish unavailable pipeline value from zero. Apply consistent win-rate scope.",
+    "questions": [
+      {
+        "prompt": "Open deal amounts are missing. What should the forecast show?",
+        "choices": [
+          "Zero monetary pipeline",
+          "Open deal count and an unavailable value",
+          "A guessed average amount"
+        ],
+        "answer": 1,
+        "explanation": "Unknown monetary value must remain unavailable."
+      },
+      {
+        "prompt": "What is the win-rate denominator?",
+        "choices": [
+          "All opportunities",
+          "Only won deals",
+          "Won plus lost deals"
+        ],
+        "answer": 2,
+        "explanation": "Open deals are excluded from closed-deal conversion."
+      }
+    ]
+  },
+  {
+    "id": "ENG-101",
+    "title": "Engagement review and customer handoff",
+    "audience": "Sales / CSM",
+    "minutes": 20,
+    "knowledge_ids": [
+      "KB-002"
+    ],
+    "lesson": "Normalize Gong/Apollo exports, link activities to known opportunities and capture explicit next steps.",
+    "questions": [
+      {
+        "prompt": "An exported call has an unknown CRM opportunity ID. What next?",
+        "choices": [
+          "Quarantine for mapping review",
+          "Create a guessed account",
+          "Count it as a won deal"
+        ],
+        "answer": 0,
+        "explanation": "Unknown relationships must be reviewed before import."
+      },
+      {
+        "prompt": "What establishes a native Gong connection?",
+        "choices": [
+          "Selecting Gong in this app",
+          "A verified account/API run",
+          "A normalized JSON example"
+        ],
+        "answer": 1,
+        "explanation": "Export review does not establish native platform access."
+      }
+    ]
+  },
+  {
+    "id": "OPS-101",
+    "title": "Migration, automation and commission controls",
+    "audience": "RevOps / Finance",
+    "minutes": 25,
+    "knowledge_ids": [
+      "KB-004",
+      "KB-005",
+      "KB-006"
+    ],
+    "lesson": "Reconcile migrations, prevent conflicting retries and review scenario commissions before any external finance process.",
+    "questions": [
+      {
+        "prompt": "The same event ID arrives with a different amount. What happens?",
+        "choices": [
+          "Overwrite the old event",
+          "Approve both events",
+          "Reject the conflict"
+        ],
+        "answer": 2,
+        "explanation": "Stable IDs cannot silently refer to changed payloads."
+      },
+      {
+        "prompt": "An approved rehearsal ledger means:",
+        "choices": [
+          "A bank payment occurred",
+          "A scenario review was completed; no money moved",
+          "Actual company commission was processed"
+        ],
+        "answer": 1,
+        "explanation": "This app has no payment connector."
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "KB-001",
+    "title": "Opportunity hygiene before the weekly forecast",
+    "audience": "Sales representatives",
+    "owner": "RevOps",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "CRM, Salesforce, forecast",
+    "body": "Confirm account, owner, product, stage, amount, currency and expected close date. Preserve unknown values rather than entering zero. Open Maven deals lack amounts and expected close dates: report their count, and resolve source gaps before valuing pipeline.",
+    "checklist": [
+      "Assign an accountable owner",
+      "Resolve account exceptions",
+      "Confirm currency and close date",
+      "Record the next customer action"
+    ]
+  },
+  {
+    "id": "KB-002",
+    "title": "Apollo and Gong engagement handoff",
+    "audience": "Sales / CSM",
+    "owner": "Sales enablement",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "Apollo, Gong, Outreach, Salesloft",
+    "body": "Export only authorized activity metadata. Normalize activity_id, opportunity_id, activity_date, type, outcome and next_step. Match to the CRM opportunity; quarantine unknown IDs and duplicates. Gong imports accept call records. No transcript, personal email or contact phone is needed.",
+    "checklist": [
+      "Confirm export authorization",
+      "Normalize to the contract",
+      "Review rejected records",
+      "Assign next steps without sending messages"
+    ]
+  },
+  {
+    "id": "KB-003",
+    "title": "Revenue reporting and Looker definitions",
+    "audience": "Sales leadership / Marketing",
+    "owner": "Analytics",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "Looker, Power BI, reports",
+    "body": "Won revenue is the sum of Closed Won deal value, not accounting revenue. Win rate is won divided by all closed deals. Open deals are excluded from win rate. The 2017 Maven sample has no currency code; the displayed dollars are a convention. Looker and Power BI must reconcile to 10,005,534 won value and 4,238 won deals on the full sample.",
+    "checklist": [
+      "Confirm population and period",
+      "Reconcile aggregate and detail",
+      "Keep scenarios separate",
+      "Record the native report run ID"
+    ]
+  },
+  {
+    "id": "KB-004",
+    "title": "New business-line onboarding",
+    "audience": "RevOps / Salesforce developer",
+    "owner": "CRM operations",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "Acquisition, integration, mapping",
+    "body": "Agree account and owner crosswalks before migration. Prefix legacy IDs with the business line. Map stages to the existing lifecycle, preserve explicit currency and require real close dates. Resolve every rejected record before an export is migration-ready. Compare counts and currency-specific sums; never combine currencies without an approved FX policy.",
+    "checklist": [
+      "Inventory source and access",
+      "Approve the crosswalk",
+      "Dry-run and reconcile",
+      "Prepare rollback and owner sign-off"
+    ]
+  },
+  {
+    "id": "KB-005",
+    "title": "Commission review and payout controls",
+    "audience": "Finance / Sales leadership",
+    "owner": "Finance reviewer",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "Compensation, payout, approvals",
+    "body": "The bundled plan is a flat 5% scenario. Round each representative payout to cents before summing. Review the basis, rate, adjustments and period before approval. Approval rehearsal is separate from payment; this application has no bank or payroll connector. Real payout processing requires the company plan, segregation of duties and secure finance evidence.",
+    "checklist": [
+      "Reconcile Closed Won basis",
+      "Review rounding per representative",
+      "Capture separate reviewer approval",
+      "Export a scenario ledger only"
+    ]
+  },
+  {
+    "id": "KB-006",
+    "title": "Automation incident and retry review",
+    "audience": "RevOps / Engineering",
+    "owner": "Integration owner",
+    "version": "1.0",
+    "review_date": "2026-10-08",
+    "tags": "Zapier, n8n, retries",
+    "body": "Use the same stable event ID across retries. Same ID and same payload return the prior result; a changed payload under the same ID is rejected. Validate currency before threshold checks. Keep API tokens in private credential stores. A queued backend outbox is not evidence that a Zap ran or that a message was delivered.",
+    "checklist": [
+      "Check event and execution IDs",
+      "Validate amount and currency",
+      "Review duplicate/conflict behavior",
+      "Retain the native run receipt"
+    ]
+  }
+]
