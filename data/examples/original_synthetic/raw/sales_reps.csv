@@ -1,0 +1,13 @@
+rep_id,rep,region,target,commission_rate
+REP01,Representative 01,APAC,450000,0.05
+REP02,Representative 02,EMEA,450000,0.05
+REP03,Representative 03,North America,450000,0.05
+REP04,Representative 04,India,450000,0.05
+REP05,Representative 05,APAC,450000,0.05
+REP06,Representative 06,EMEA,450000,0.05
+REP07,Representative 07,North America,450000,0.05
+REP08,Representative 08,India,450000,0.05
+REP09,Representative 09,APAC,450000,0.05
+REP10,Representative 10,EMEA,450000,0.05
+REP11,Representative 11,North America,450000,0.05
+REP12,Representative 12,India,450000,0.05

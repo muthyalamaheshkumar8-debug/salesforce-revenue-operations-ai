@@ -1,0 +1,13 @@
+Won Revenue = CALCULATE(SUM(opportunities[amount]), opportunities[stage] = "Closed Won")
+Open Pipeline = CALCULATE(SUM(opportunities[amount]), NOT(opportunities[stage] IN {"Closed Won", "Closed Lost"}))
+Won Deals = CALCULATE(COUNTROWS(opportunities), opportunities[stage] = "Closed Won")
+Closed Deals = CALCULATE(COUNTROWS(opportunities), opportunities[stage] IN {"Closed Won", "Closed Lost"})
+Win Rate = DIVIDE([Won Deals], [Closed Deals])
+Average Won Deal = DIVIDE([Won Revenue], [Won Deals])
+Scenario Target = SUM(sales_reps[target])
+Scenario Attainment = DIVIDE([Won Revenue], [Scenario Target])
+Estimated Payout = SUMX(sales_reps, CALCULATE([Won Revenue]) * sales_reps[commission_rate])
+Weighted Pipeline = CALCULATE(SUMX(opportunities, opportunities[amount] * opportunities[probability]), NOT(opportunities[stage] IN {"Closed Won", "Closed Lost"}))
+Date = CALENDAR(DATE(2016, 10, 20), DATE(2017, 12, 31))
+
+Open Opportunities = CALCULATE(COUNTROWS(opportunities), NOT(opportunities[stage] IN {"Closed Won", "Closed Lost"}))

@@ -1,0 +1,12 @@
+{
+  "name": "Revenue Operations",
+  "dataColors": [
+    "#1E6478",
+    "#5B8FA4",
+    "#D69548",
+    "#536B8B"
+  ],
+  "background": "#F7F9FA",
+  "foreground": "#142B38",
+  "tableAccent": "#1E6478"
+}

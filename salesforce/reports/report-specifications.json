@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Pipeline by stage",
+    "filter": "IsClosed = false",
+    "group": "StageName",
+    "measures": [
+      "SUM(Amount)",
+      "SUM(ExpectedRevenue)"
+    ]
+  },
+  {
+    "name": "Won revenue by representative",
+    "filter": "IsWon = true",
+    "group": "Owner",
+    "measures": [
+      "SUM(Amount)",
+      "RowCount"
+    ]
+  },
+  {
+    "name": "Revenue by region",
+    "filter": "IsWon = true",
+    "group": "Region__c",
+    "measures": [
+      "SUM(Amount)",
+      "RowCount"
+    ]
+  },
+  {
+    "name": "Won vs lost",
+    "filter": "IsClosed = true",
+    "group": "Owner, StageName",
+    "measures": [
+      "RowCount"
+    ]
+  },
+  {
+    "name": "Monthly won revenue",
+    "filter": "IsWon = true",
+    "group": "CloseDate calendar month",
+    "measures": [
+      "SUM(Amount)",
+      "RowCount",
+      "AVG(Amount)"
+    ]
+  },
+  {
+    "name": "Sales rep target achievement",
+    "filter": "IsWon = true AND CloseDate = 2017",
+    "group": "Owner",
+    "measures": [
+      "SUM(Amount)",
+      "SUM(Amount) / configured annual target"
+    ],
+    "scenario": true,
+    "requires": "Configure annual target data; the source has no actual quotas."
+  }
+]

@@ -1,0 +1,294 @@
+opportunity_id,opportunity,account_id,account,rep_id,rep,region,product,source,stage,amount,probability,close_date,created_date,expected_revenue,won_revenue,month
+OPP0001,Summit Systems 05 · 001,ACC005,Summit Systems 05,REP01,Representative 01,APAC,CRM Suite,Web,Prospecting,42700.0,0.1,2026-05-21,2026-04-08,4270.0,0,2026-05
+OPP0002,Alpha Systems 06 · 002,ACC006,Alpha Systems 06,REP02,Representative 02,EMEA,Analytics Cloud,Referral,Closed Won,6500.0,1.0,2026-02-14,2025-11-19,6500.0,6500.0,2026-02
+OPP0003,Nova Systems 07 · 003,ACC007,Nova Systems 07,REP03,Representative 03,North America,CRM Suite,Web,Qualification,41600.0,0.25,2026-09-16,2026-06-19,10400.0,0,2026-09
+OPP0004,Alpha Systems 36 · 004,ACC036,Alpha Systems 36,REP04,Representative 04,India,Analytics Cloud,Referral,Proposal,43800.0,0.6,2026-08-18,2026-05-23,26280.0,0,2026-08
+OPP0005,BluePeak Systems 09 · 005,ACC009,BluePeak Systems 09,REP05,Representative 05,APAC,CRM Suite,Web,Closed Won,44000.0,1.0,2026-06-24,2026-05-08,44000.0,44000.0,2026-06
+OPP0006,Orion Systems 22 · 006,ACC022,Orion Systems 22,REP06,Representative 06,EMEA,Analytics Cloud,Partner,Prospecting,35900.0,0.1,2026-07-14,2026-06-20,3590.0,0,2026-07
+OPP0007,Nova Systems 19 · 007,ACC019,Nova Systems 19,REP07,Representative 07,North America,CRM Suite,Outbound,Closed Won,9000.0,1.0,2026-08-24,2026-06-05,9000.0,9000.0,2026-08
+OPP0009,Nova Systems 13 · 009,ACC013,Nova Systems 13,REP09,Representative 09,APAC,CRM Suite,Outbound,Closed Won,19200.0,1.0,2026-02-10,2025-12-31,19200.0,19200.0,2026-02
+OPP0010,Alpha Systems 30 · 010,ACC030,Alpha Systems 30,REP10,Representative 10,EMEA,Analytics Cloud,Partner,Closed Won,15700.0,1.0,2026-07-06,2026-06-04,15700.0,15700.0,2026-07
+OPP0011,Nova Systems 19 · 011,ACC019,Nova Systems 19,REP11,Representative 11,North America,Automation Hub,Web,Closed Won,32300.0,1.0,2026-02-06,2025-11-09,32300.0,32300.0,2026-02
+OPP0012,Orion Systems 16 · 012,ACC016,Orion Systems 16,REP12,Representative 12,India,Automation Hub,Web,Qualification,40000.0,0.25,2026-07-14,2026-05-29,10000.0,0,2026-07
+OPP0013,BluePeak Systems 21 · 013,ACC021,BluePeak Systems 21,REP01,Representative 01,APAC,CRM Suite,Partner,Closed Won,25500.0,1.0,2026-01-29,2025-12-19,25500.0,25500.0,2026-01
+OPP0014,Alpha Systems 18 · 014,ACC018,Alpha Systems 18,REP02,Representative 02,EMEA,Automation Hub,Outbound,Prospecting,25200.0,0.1,2026-06-11,2026-05-03,2520.0,0,2026-06
+OPP0015,Nova Systems 31 · 015,ACC031,Nova Systems 31,REP03,Representative 03,North America,Automation Hub,Partner,Qualification,43200.0,0.25,2026-03-13,2026-01-29,10800.0,0,2026-03
+OPP0016,Orion Systems 40 · 016,ACC040,Orion Systems 40,REP04,Representative 04,India,CRM Suite,Web,Proposal,31000.0,0.6,2026-07-24,2026-05-27,18600.0,0,2026-07
+OPP0017,Summit Systems 29 · 017,ACC029,Summit Systems 29,REP05,Representative 05,APAC,CRM Suite,Web,Prospecting,39800.0,0.1,2026-01-25,2025-12-30,3980.0,0,2026-01
+OPP0018,Vertex Systems 26 · 018,ACC026,Vertex Systems 26,REP06,Representative 06,EMEA,Automation Hub,Outbound,Closed Won,32000.0,1.0,2026-07-17,2026-05-18,32000.0,32000.0,2026-07
+OPP0020,Alpha Systems 24 · 020,ACC024,Alpha Systems 24,REP08,Representative 08,India,Analytics Cloud,Referral,Prospecting,41900.0,0.1,2026-08-11,2026-07-10,4190.0,0,2026-08
+OPP0021,Summit Systems 17 · 021,ACC017,Summit Systems 17,REP09,Representative 09,APAC,CRM Suite,Partner,Closed Lost,37700.0,0.0,2026-04-02,2026-01-16,0.0,0,2026-04
+OPP0022,Orion Systems 34 · 022,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,CRM Suite,Referral,Closed Won,35600.0,1.0,2026-03-20,2026-01-20,35600.0,35600.0,2026-03
+OPP0023,Summit Systems 23 · 023,ACC023,Summit Systems 23,REP11,Representative 11,North America,Analytics Cloud,Web,Negotiation,7900.0,0.8,2026-02-27,2025-12-31,6320.0,0,2026-02
+OPP0024,Orion Systems 16 · 024,ACC016,Orion Systems 16,REP12,Representative 12,India,Automation Hub,Outbound,Closed Lost,8500.0,0.0,2026-02-10,2026-01-19,0.0,0,2026-02
+OPP0025,BluePeak Systems 33 · 025,ACC033,BluePeak Systems 33,REP01,Representative 01,APAC,Automation Hub,Web,Closed Won,18500.0,1.0,2026-03-07,2025-12-25,18500.0,18500.0,2026-03
+OPP0027,Nova Systems 19 · 027,ACC019,Nova Systems 19,REP03,Representative 03,North America,Automation Hub,Outbound,Proposal,11100.0,0.6,2026-07-11,2026-05-04,6660.0,0,2026-07
+OPP0028,Orion Systems 16 · 028,ACC016,Orion Systems 16,REP04,Representative 04,India,Automation Hub,Web,Qualification,35100.0,0.25,2026-06-23,2026-06-09,8775.0,0,2026-06
+OPP0029,Nova Systems 13 · 029,ACC013,Nova Systems 13,REP05,Representative 05,APAC,CRM Suite,Referral,Prospecting,21900.0,0.1,2026-01-31,2025-12-21,2190.0,0,2026-01
+OPP0030,Alpha Systems 06 · 030,ACC006,Alpha Systems 06,REP06,Representative 06,EMEA,CRM Suite,Web,Negotiation,42000.0,0.8,2026-05-23,2026-03-10,33600.0,0,2026-05
+OPP0031,BluePeak Systems 39 · 031,ACC039,BluePeak Systems 39,REP07,Representative 07,North America,Analytics Cloud,Web,Closed Won,9800.0,1.0,2026-05-05,2026-02-22,9800.0,9800.0,2026-05
+OPP0032,Vertex Systems 08 · 032,ACC008,Vertex Systems 08,REP08,Representative 08,India,Analytics Cloud,Outbound,Closed Won,42300.0,1.0,2026-07-01,2026-04-26,42300.0,42300.0,2026-07
+OPP0033,Nova Systems 01 · 033,ACC001,Nova Systems 01,REP09,Representative 09,APAC,Analytics Cloud,Partner,Closed Won,10500.0,1.0,2026-02-20,2026-02-01,10500.0,10500.0,2026-02
+OPP0034,Vertex Systems 14 · 034,ACC014,Vertex Systems 14,REP10,Representative 10,EMEA,Analytics Cloud,Web,Qualification,19200.0,0.25,2026-08-18,2026-07-20,4800.0,0,2026-08
+OPP0035,Nova Systems 31 · 035,ACC031,Nova Systems 31,REP11,Representative 11,North America,Automation Hub,Referral,Needs Analysis,7500.0,0.4,2026-02-08,2025-12-02,3000.0,0,2026-02
+OPP0036,Alpha Systems 36 · 036,ACC036,Alpha Systems 36,REP12,Representative 12,India,CRM Suite,Outbound,Closed Won,29800.0,1.0,2026-02-17,2026-01-06,29800.0,29800.0,2026-02
+OPP0037,Summit Systems 29 · 037,ACC029,Summit Systems 29,REP01,Representative 01,APAC,CRM Suite,Outbound,Qualification,5100.0,0.25,2026-07-25,2026-07-06,1275.0,0,2026-07
+OPP0038,Vertex Systems 26 · 038,ACC026,Vertex Systems 26,REP02,Representative 02,EMEA,Analytics Cloud,Outbound,Needs Analysis,12900.0,0.4,2026-08-21,2026-07-04,5160.0,0,2026-08
+OPP0039,BluePeak Systems 15 · 039,ACC015,BluePeak Systems 15,REP03,Representative 03,North America,Automation Hub,Referral,Needs Analysis,43200.0,0.4,2026-01-30,2025-11-05,17280.0,0,2026-01
+OPP0041,BluePeak Systems 33 · 041,ACC033,BluePeak Systems 33,REP05,Representative 05,APAC,Automation Hub,Referral,Prospecting,39500.0,0.1,2026-04-06,2026-03-17,3950.0,0,2026-04
+OPP0042,Vertex Systems 14 · 042,ACC014,Vertex Systems 14,REP06,Representative 06,EMEA,Automation Hub,Referral,Proposal,36700.0,0.6,2026-05-07,2026-02-10,22020.0,0,2026-05
+OPP0043,Nova Systems 07 · 043,ACC007,Nova Systems 07,REP07,Representative 07,North America,Analytics Cloud,Web,Proposal,39200.0,0.6,2026-09-25,2026-08-04,23520.0,0,2026-09
+OPP0044,Alpha Systems 24 · 044,ACC024,Alpha Systems 24,REP08,Representative 08,India,Automation Hub,Partner,Qualification,28400.0,0.25,2026-07-22,2026-06-24,7100.0,0,2026-07
+OPP0045,BluePeak Systems 21 · 045,ACC021,BluePeak Systems 21,REP09,Representative 09,APAC,Analytics Cloud,Referral,Closed Lost,8700.0,0.0,2026-02-07,2026-01-25,0.0,0,2026-02
+OPP0046,Orion Systems 34 · 046,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Analytics Cloud,Referral,Qualification,17500.0,0.25,2026-05-16,2026-04-18,4375.0,0,2026-05
+OPP0047,Summit Systems 23 · 047,ACC023,Summit Systems 23,REP11,Representative 11,North America,Automation Hub,Partner,Needs Analysis,36300.0,0.4,2026-08-13,2026-05-24,14520.0,0,2026-08
+OPP0048,Alpha Systems 36 · 048,ACC036,Alpha Systems 36,REP12,Representative 12,India,CRM Suite,Partner,Prospecting,10900.0,0.1,2026-06-03,2026-05-09,1090.0,0,2026-06
+OPP0049,Summit Systems 05 · 049,ACC005,Summit Systems 05,REP01,Representative 01,APAC,Analytics Cloud,Web,Closed Won,41700.0,1.0,2026-03-21,2026-02-03,41700.0,41700.0,2026-03
+OPP0050,Orion Systems 22 · 050,ACC022,Orion Systems 22,REP02,Representative 02,EMEA,Analytics Cloud,Partner,Qualification,7600.0,0.25,2026-05-16,2026-03-01,1900.0,0,2026-05
+OPP0051,Nova Systems 07 · 051,ACC007,Nova Systems 07,REP03,Representative 03,North America,CRM Suite,Partner,Closed Won,44400.0,1.0,2026-05-22,2026-05-05,44400.0,44400.0,2026-05
+OPP0052,Alpha Systems 12 · 052,ACC012,Alpha Systems 12,REP04,Representative 04,India,Automation Hub,Outbound,Closed Won,33200.0,1.0,2026-05-15,2026-04-13,33200.0,33200.0,2026-05
+OPP0053,Nova Systems 25 · 053,ACC025,Nova Systems 25,REP05,Representative 05,APAC,Automation Hub,Web,Closed Won,32900.0,1.0,2026-02-27,2026-02-06,32900.0,32900.0,2026-02
+OPP0054,Vertex Systems 02 · 054,ACC002,Vertex Systems 02,REP06,Representative 06,EMEA,CRM Suite,Referral,Closed Won,20700.0,1.0,2026-03-17,2026-01-09,20700.0,20700.0,2026-03
+OPP0055,Summit Systems 23 · 055,ACC023,Summit Systems 23,REP07,Representative 07,North America,CRM Suite,Web,Closed Lost,39100.0,0.0,2026-01-21,2025-11-25,0.0,0,2026-01
+OPP0056,Vertex Systems 08 · 056,ACC008,Vertex Systems 08,REP08,Representative 08,India,CRM Suite,Web,Proposal,14000.0,0.6,2026-07-28,2026-06-27,8400.0,0,2026-07
+OPP0057,Nova Systems 25 · 057,ACC025,Nova Systems 25,REP09,Representative 09,APAC,Automation Hub,Web,Prospecting,18600.0,0.1,2026-06-20,2026-04-17,1860.0,0,2026-06
+OPP0058,Orion Systems 10 · 058,ACC010,Orion Systems 10,REP10,Representative 10,EMEA,CRM Suite,Outbound,Closed Won,16300.0,1.0,2026-02-25,2025-12-27,16300.0,16300.0,2026-02
+OPP0059,BluePeak Systems 15 · 059,ACC015,BluePeak Systems 15,REP11,Representative 11,North America,Analytics Cloud,Web,Closed Won,16400.0,1.0,2026-08-24,2026-06-29,16400.0,16400.0,2026-08
+OPP0060,Orion Systems 04 · 060,ACC004,Orion Systems 04,REP12,Representative 12,India,Analytics Cloud,Referral,Closed Won,44500.0,1.0,2026-07-24,2026-05-31,44500.0,44500.0,2026-07
+OPP0061,Summit Systems 17 · 061,ACC017,Summit Systems 17,REP01,Representative 01,APAC,Automation Hub,Partner,Proposal,6400.0,0.6,2026-09-18,2026-07-17,3840.0,0,2026-09
+OPP0063,Nova Systems 07 · 063,ACC007,Nova Systems 07,REP03,Representative 03,North America,Analytics Cloud,Referral,Closed Won,24700.0,1.0,2026-06-26,2026-05-05,24700.0,24700.0,2026-06
+OPP0064,Orion Systems 40 · 064,ACC040,Orion Systems 40,REP04,Representative 04,India,CRM Suite,Web,Qualification,23600.0,0.25,2026-01-23,2025-11-17,5900.0,0,2026-01
+OPP0065,Nova Systems 25 · 065,ACC025,Nova Systems 25,REP05,Representative 05,APAC,Automation Hub,Referral,Prospecting,41800.0,0.1,2026-06-19,2026-04-28,4180.0,0,2026-06
+OPP0066,Alpha Systems 18 · 066,ACC018,Alpha Systems 18,REP06,Representative 06,EMEA,Analytics Cloud,Partner,Negotiation,33300.0,0.8,2026-07-29,2026-06-06,26640.0,0,2026-07
+OPP0067,Summit Systems 11 · 067,ACC011,Summit Systems 11,REP07,Representative 07,North America,Automation Hub,Partner,Qualification,25700.0,0.25,2026-07-14,2026-06-10,6425.0,0,2026-07
+OPP0068,Alpha Systems 36 · 068,ACC036,Alpha Systems 36,REP08,Representative 08,India,CRM Suite,Outbound,Closed Won,34600.0,1.0,2026-06-05,2026-04-18,34600.0,34600.0,2026-06
+OPP0069,Nova Systems 37 · 069,ACC037,Nova Systems 37,REP09,Representative 09,APAC,Analytics Cloud,Web,Closed Won,31100.0,1.0,2026-08-27,2026-06-20,31100.0,31100.0,2026-08
+OPP0070,Alpha Systems 30 · 070,ACC030,Alpha Systems 30,REP10,Representative 10,EMEA,Analytics Cloud,Partner,Closed Won,9700.0,1.0,2026-03-28,2026-03-06,9700.0,9700.0,2026-03
+OPP0071,BluePeak Systems 15 · 071,ACC015,BluePeak Systems 15,REP11,Representative 11,North America,CRM Suite,Referral,Closed Won,7300.0,1.0,2026-04-26,2026-03-20,7300.0,7300.0,2026-04
+OPP0072,Orion Systems 16 · 072,ACC016,Orion Systems 16,REP12,Representative 12,India,Analytics Cloud,Web,Closed Lost,41700.0,0.0,2026-02-07,2025-11-29,0.0,0,2026-02
+OPP0073,Nova Systems 25 · 073,ACC025,Nova Systems 25,REP01,Representative 01,APAC,Automation Hub,Referral,Negotiation,43400.0,0.8,2026-05-05,2026-04-05,34720.0,0,2026-05
+OPP0074,Alpha Systems 06 · 074,ACC006,Alpha Systems 06,REP02,Representative 02,EMEA,Automation Hub,Outbound,Closed Won,7500.0,1.0,2026-04-23,2026-03-20,7500.0,7500.0,2026-04
+OPP0075,Summit Systems 35 · 075,ACC035,Summit Systems 35,REP03,Representative 03,North America,CRM Suite,Outbound,Needs Analysis,39100.0,0.4,2026-03-04,2025-12-24,15640.0,0,2026-03
+OPP0076,Alpha Systems 36 · 076,ACC036,Alpha Systems 36,REP04,Representative 04,India,Automation Hub,Outbound,Closed Lost,33000.0,0.0,2026-06-12,2026-04-05,0.0,0,2026-06
+OPP0077,Summit Systems 29 · 077,ACC029,Summit Systems 29,REP05,Representative 05,APAC,Analytics Cloud,Web,Closed Lost,37600.0,0.0,2026-09-01,2026-06-24,0.0,0,2026-09
+OPP0078,Alpha Systems 18 · 078,ACC018,Alpha Systems 18,REP06,Representative 06,EMEA,Automation Hub,Web,Closed Won,19000.0,1.0,2026-09-24,2026-07-12,19000.0,19000.0,2026-09
+OPP0079,Nova Systems 31 · 079,ACC031,Nova Systems 31,REP07,Representative 07,North America,Analytics Cloud,Partner,Prospecting,21300.0,0.1,2026-05-27,2026-04-15,2130.0,0,2026-05
+OPP0080,Alpha Systems 36 · 080,ACC036,Alpha Systems 36,REP08,Representative 08,India,Analytics Cloud,Web,Prospecting,41100.0,0.1,2026-03-19,2026-02-06,4110.0,0,2026-03
+OPP0081,Nova Systems 13 · 081,ACC013,Nova Systems 13,REP09,Representative 09,APAC,Automation Hub,Outbound,Prospecting,26200.0,0.1,2026-07-28,2026-06-04,2620.0,0,2026-07
+OPP0082,Vertex Systems 02 · 082,ACC002,Vertex Systems 02,REP10,Representative 10,EMEA,Automation Hub,Referral,Qualification,44100.0,0.25,2026-08-04,2026-06-04,11025.0,0,2026-08
+OPP0083,BluePeak Systems 39 · 083,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,Analytics Cloud,Outbound,Proposal,26400.0,0.6,2026-01-04,2025-11-08,15840.0,0,2026-01
+OPP0084,Alpha Systems 36 · 084,ACC036,Alpha Systems 36,REP12,Representative 12,India,CRM Suite,Partner,Closed Won,27300.0,1.0,2026-04-23,2026-02-08,27300.0,27300.0,2026-04
+OPP0085,Summit Systems 29 · 085,ACC029,Summit Systems 29,REP01,Representative 01,APAC,Automation Hub,Web,Prospecting,28900.0,0.1,2026-06-22,2026-04-20,2890.0,0,2026-06
+OPP0086,Orion Systems 10 · 086,ACC010,Orion Systems 10,REP02,Representative 02,EMEA,Automation Hub,Referral,Closed Lost,9200.0,0.0,2026-01-14,2025-11-13,0.0,0,2026-01
+OPP0087,BluePeak Systems 27 · 087,ACC027,BluePeak Systems 27,REP03,Representative 03,North America,CRM Suite,Partner,Qualification,24400.0,0.25,2026-08-25,2026-07-21,6100.0,0,2026-08
+OPP0088,Alpha Systems 24 · 088,ACC024,Alpha Systems 24,REP04,Representative 04,India,Analytics Cloud,Partner,Qualification,43500.0,0.25,2026-06-17,2026-04-23,10875.0,0,2026-06
+OPP0089,Nova Systems 25 · 089,ACC025,Nova Systems 25,REP05,Representative 05,APAC,CRM Suite,Referral,Needs Analysis,22900.0,0.4,2026-02-11,2025-12-01,9160.0,0,2026-02
+OPP0090,Vertex Systems 14 · 090,ACC014,Vertex Systems 14,REP06,Representative 06,EMEA,CRM Suite,Web,Closed Won,6000.0,1.0,2026-01-21,2026-01-06,6000.0,6000.0,2026-01
+OPP0092,Orion Systems 16 · 092,ACC016,Orion Systems 16,REP08,Representative 08,India,CRM Suite,Referral,Negotiation,44800.0,0.8,2026-05-12,2026-03-14,35840.0,0,2026-05
+OPP0093,BluePeak Systems 09 · 093,ACC009,BluePeak Systems 09,REP09,Representative 09,APAC,CRM Suite,Partner,Closed Lost,34400.0,0.0,2026-02-25,2025-12-01,0.0,0,2026-02
+OPP0094,Vertex Systems 26 · 094,ACC026,Vertex Systems 26,REP10,Representative 10,EMEA,Automation Hub,Web,Proposal,10200.0,0.6,2026-04-12,2026-03-22,6120.0,0,2026-04
+OPP0095,Nova Systems 19 · 095,ACC019,Nova Systems 19,REP11,Representative 11,North America,CRM Suite,Partner,Closed Won,32200.0,1.0,2026-03-03,2025-12-09,32200.0,32200.0,2026-03
+OPP0096,Orion Systems 28 · 096,ACC028,Orion Systems 28,REP12,Representative 12,India,Automation Hub,Partner,Closed Won,5600.0,1.0,2026-02-05,2025-11-21,5600.0,5600.0,2026-02
+OPP0097,Nova Systems 25 · 097,ACC025,Nova Systems 25,REP01,Representative 01,APAC,Analytics Cloud,Outbound,Closed Won,41200.0,1.0,2026-02-24,2025-12-19,41200.0,41200.0,2026-02
+OPP0098,Orion Systems 10 · 098,ACC010,Orion Systems 10,REP02,Representative 02,EMEA,Automation Hub,Outbound,Proposal,28800.0,0.6,2026-09-25,2026-08-10,17280.0,0,2026-09
+OPP0099,BluePeak Systems 27 · 099,ACC027,BluePeak Systems 27,REP03,Representative 03,North America,CRM Suite,Referral,Closed Won,19200.0,1.0,2026-05-18,2026-03-26,19200.0,19200.0,2026-05
+OPP0100,Vertex Systems 32 · 100,ACC032,Vertex Systems 32,REP04,Representative 04,India,Automation Hub,Outbound,Needs Analysis,22200.0,0.4,2026-08-26,2026-06-03,8880.0,0,2026-08
+OPP0101,Nova Systems 01 · 101,ACC001,Nova Systems 01,REP05,Representative 05,APAC,Analytics Cloud,Web,Negotiation,23100.0,0.8,2026-06-16,2026-05-12,18480.0,0,2026-06
+OPP0102,Alpha Systems 18 · 102,ACC018,Alpha Systems 18,REP06,Representative 06,EMEA,CRM Suite,Web,Proposal,9300.0,0.6,2026-05-22,2026-02-28,5580.0,0,2026-05
+OPP0103,BluePeak Systems 15 · 103,ACC015,BluePeak Systems 15,REP07,Representative 07,North America,CRM Suite,Outbound,Closed Won,38000.0,1.0,2026-09-08,2026-06-17,38000.0,38000.0,2026-09
+OPP0104,Vertex Systems 32 · 104,ACC032,Vertex Systems 32,REP08,Representative 08,India,Analytics Cloud,Web,Proposal,25700.0,0.6,2026-01-09,2025-12-17,15420.0,0,2026-01
+OPP0105,Nova Systems 13 · 105,ACC013,Nova Systems 13,REP09,Representative 09,APAC,Automation Hub,Partner,Needs Analysis,26700.0,0.4,2026-07-08,2026-04-27,10680.0,0,2026-07
+OPP0106,Orion Systems 34 · 106,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Analytics Cloud,Partner,Needs Analysis,16800.0,0.4,2026-08-21,2026-07-06,6720.0,0,2026-08
+OPP0107,Nova Systems 07 · 107,ACC007,Nova Systems 07,REP11,Representative 11,North America,Automation Hub,Web,Closed Won,14800.0,1.0,2026-06-11,2026-05-15,14800.0,14800.0,2026-06
+OPP0108,Orion Systems 16 · 108,ACC016,Orion Systems 16,REP12,Representative 12,India,Automation Hub,Partner,Closed Won,10100.0,1.0,2026-05-22,2026-02-24,10100.0,10100.0,2026-05
+OPP0109,Nova Systems 13 · 109,ACC013,Nova Systems 13,REP01,Representative 01,APAC,Analytics Cloud,Referral,Needs Analysis,41200.0,0.4,2026-07-04,2026-05-31,16480.0,0,2026-07
+OPP0110,Orion Systems 34 · 110,ACC034,Orion Systems 34,REP02,Representative 02,EMEA,Automation Hub,Partner,Qualification,40700.0,0.25,2026-01-24,2026-01-06,10175.0,0,2026-01
+OPP0111,Summit Systems 11 · 111,ACC011,Summit Systems 11,REP03,Representative 03,North America,CRM Suite,Partner,Closed Won,29000.0,1.0,2026-09-09,2026-08-15,29000.0,29000.0,2026-09
+OPP0113,Summit Systems 05 · 113,ACC005,Summit Systems 05,REP05,Representative 05,APAC,Automation Hub,Referral,Proposal,12700.0,0.6,2026-02-07,2025-11-14,7620.0,0,2026-02
+OPP0114,Orion Systems 10 · 114,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,CRM Suite,Referral,Closed Won,33500.0,1.0,2026-06-05,2026-05-14,33500.0,33500.0,2026-06
+OPP0115,BluePeak Systems 27 · 115,ACC027,BluePeak Systems 27,REP07,Representative 07,North America,Analytics Cloud,Outbound,Closed Won,27600.0,1.0,2026-04-26,2026-02-07,27600.0,27600.0,2026-04
+OPP0116,Vertex Systems 20 · 116,ACC020,Vertex Systems 20,REP08,Representative 08,India,Automation Hub,Referral,Closed Lost,36200.0,0.0,2026-08-08,2026-06-18,0.0,0,2026-08
+OPP0117,Summit Systems 05 · 117,ACC005,Summit Systems 05,REP09,Representative 09,APAC,Analytics Cloud,Referral,Closed Lost,13000.0,0.0,2026-04-17,2026-03-09,0.0,0,2026-04
+OPP0118,Vertex Systems 14 · 118,ACC014,Vertex Systems 14,REP10,Representative 10,EMEA,CRM Suite,Outbound,Qualification,28000.0,0.25,2026-02-08,2026-01-07,7000.0,0,2026-02
+OPP0119,BluePeak Systems 39 · 119,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,Analytics Cloud,Partner,Negotiation,40900.0,0.8,2026-01-17,2025-12-07,32720.0,0,2026-01
+OPP0120,Vertex Systems 32 · 120,ACC032,Vertex Systems 32,REP12,Representative 12,India,Automation Hub,Web,Prospecting,26700.0,0.1,2026-04-30,2026-03-16,2670.0,0,2026-04
+OPP0121,Summit Systems 05 · 121,ACC005,Summit Systems 05,REP01,Representative 01,APAC,CRM Suite,Referral,Negotiation,8000.0,0.8,2026-03-18,2026-01-31,6400.0,0,2026-03
+OPP0122,Orion Systems 10 · 122,ACC010,Orion Systems 10,REP02,Representative 02,EMEA,CRM Suite,Outbound,Closed Won,40200.0,1.0,2026-05-28,2026-03-21,40200.0,40200.0,2026-05
+OPP0123,Nova Systems 19 · 123,ACC019,Nova Systems 19,REP03,Representative 03,North America,Automation Hub,Outbound,Closed Won,27400.0,1.0,2026-05-20,2026-03-05,27400.0,27400.0,2026-05
+OPP0124,Vertex Systems 08 · 124,ACC008,Vertex Systems 08,REP04,Representative 04,India,Automation Hub,Partner,Closed Won,6300.0,1.0,2026-08-10,2026-06-18,6300.0,6300.0,2026-08
+OPP0125,Summit Systems 05 · 125,ACC005,Summit Systems 05,REP05,Representative 05,APAC,Automation Hub,Referral,Qualification,44000.0,0.25,2026-01-11,2025-11-26,11000.0,0,2026-01
+OPP0126,Orion Systems 10 · 126,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,CRM Suite,Outbound,Negotiation,37500.0,0.8,2026-08-15,2026-06-29,30000.0,0,2026-08
+OPP0127,Nova Systems 31 · 127,ACC031,Nova Systems 31,REP07,Representative 07,North America,Analytics Cloud,Partner,Closed Lost,21400.0,0.0,2026-08-29,2026-07-04,0.0,0,2026-08
+OPP0128,Vertex Systems 08 · 128,ACC008,Vertex Systems 08,REP08,Representative 08,India,Automation Hub,Outbound,Closed Won,19700.0,1.0,2026-06-18,2026-04-15,19700.0,19700.0,2026-06
+OPP0129,Nova Systems 25 · 129,ACC025,Nova Systems 25,REP09,Representative 09,APAC,CRM Suite,Partner,Closed Won,17900.0,1.0,2026-01-19,2025-11-10,17900.0,17900.0,2026-01
+OPP0130,Orion Systems 22 · 130,ACC022,Orion Systems 22,REP10,Representative 10,EMEA,CRM Suite,Outbound,Prospecting,26100.0,0.1,2026-07-26,2026-05-10,2610.0,0,2026-07
+OPP0131,BluePeak Systems 03 · 131,ACC003,BluePeak Systems 03,REP11,Representative 11,North America,Automation Hub,Outbound,Qualification,43900.0,0.25,2026-07-05,2026-04-21,10975.0,0,2026-07
+OPP0132,Orion Systems 04 · 132,ACC004,Orion Systems 04,REP12,Representative 12,India,Analytics Cloud,Outbound,Qualification,11200.0,0.25,2026-03-09,2026-01-20,2800.0,0,2026-03
+OPP0133,Nova Systems 01 · 133,ACC001,Nova Systems 01,REP01,Representative 01,APAC,Analytics Cloud,Referral,Closed Lost,33200.0,0.0,2026-05-03,2026-04-01,0.0,0,2026-05
+OPP0134,Vertex Systems 26 · 134,ACC026,Vertex Systems 26,REP02,Representative 02,EMEA,CRM Suite,Web,Prospecting,30500.0,0.1,2026-02-28,2025-12-19,3050.0,0,2026-02
+OPP0135,Nova Systems 19 · 135,ACC019,Nova Systems 19,REP03,Representative 03,North America,Analytics Cloud,Outbound,Negotiation,17400.0,0.8,2026-05-20,2026-03-16,13920.0,0,2026-05
+OPP0136,Vertex Systems 32 · 136,ACC032,Vertex Systems 32,REP04,Representative 04,India,Automation Hub,Web,Negotiation,8500.0,0.8,2026-07-16,2026-06-10,6800.0,0,2026-07
+OPP0137,Summit Systems 17 · 137,ACC017,Summit Systems 17,REP05,Representative 05,APAC,Automation Hub,Partner,Closed Won,5100.0,1.0,2026-08-01,2026-06-07,5100.0,5100.0,2026-08
+OPP0138,Alpha Systems 18 · 138,ACC018,Alpha Systems 18,REP06,Representative 06,EMEA,Analytics Cloud,Outbound,Closed Won,22600.0,1.0,2026-09-08,2026-08-08,22600.0,22600.0,2026-09
+OPP0139,Summit Systems 23 · 139,ACC023,Summit Systems 23,REP07,Representative 07,North America,Analytics Cloud,Web,Negotiation,40700.0,0.8,2026-07-13,2026-05-04,32560.0,0,2026-07
+OPP0140,Orion Systems 16 · 140,ACC016,Orion Systems 16,REP08,Representative 08,India,CRM Suite,Partner,Closed Won,43100.0,1.0,2026-04-30,2026-02-25,43100.0,43100.0,2026-04
+OPP0141,Summit Systems 29 · 141,ACC029,Summit Systems 29,REP09,Representative 09,APAC,Automation Hub,Web,Closed Won,30300.0,1.0,2026-07-15,2026-05-15,30300.0,30300.0,2026-07
+OPP0142,Vertex Systems 02 · 142,ACC002,Vertex Systems 02,REP10,Representative 10,EMEA,Analytics Cloud,Referral,Qualification,31900.0,0.25,2026-06-19,2026-05-26,7975.0,0,2026-06
+OPP0143,Nova Systems 31 · 143,ACC031,Nova Systems 31,REP11,Representative 11,North America,Automation Hub,Web,Prospecting,8800.0,0.1,2026-03-15,2026-01-10,880.0,0,2026-03
+OPP0144,Vertex Systems 32 · 144,ACC032,Vertex Systems 32,REP12,Representative 12,India,Automation Hub,Outbound,Closed Won,38200.0,1.0,2026-05-16,2026-03-22,38200.0,38200.0,2026-05
+OPP0145,Summit Systems 05 · 145,ACC005,Summit Systems 05,REP01,Representative 01,APAC,Automation Hub,Outbound,Closed Won,32700.0,1.0,2026-07-14,2026-05-23,32700.0,32700.0,2026-07
+OPP0146,Vertex Systems 02 · 146,ACC002,Vertex Systems 02,REP02,Representative 02,EMEA,CRM Suite,Referral,Closed Won,27200.0,1.0,2026-05-01,2026-03-14,27200.0,27200.0,2026-05
+OPP0147,Nova Systems 07 · 147,ACC007,Nova Systems 07,REP03,Representative 03,North America,CRM Suite,Partner,Closed Won,6400.0,1.0,2026-02-21,2025-12-15,6400.0,6400.0,2026-02
+OPP0148,Orion Systems 04 · 148,ACC004,Orion Systems 04,REP04,Representative 04,India,Analytics Cloud,Partner,Needs Analysis,27000.0,0.4,2026-01-29,2025-12-11,10800.0,0,2026-01
+OPP0149,BluePeak Systems 09 · 149,ACC009,BluePeak Systems 09,REP05,Representative 05,APAC,Automation Hub,Web,Needs Analysis,13700.0,0.4,2026-07-30,2026-05-07,5480.0,0,2026-07
+OPP0150,Orion Systems 10 · 150,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,Analytics Cloud,Web,Prospecting,16800.0,0.1,2026-07-15,2026-06-03,1680.0,0,2026-07
+OPP0151,Nova Systems 31 · 151,ACC031,Nova Systems 31,REP07,Representative 07,North America,Automation Hub,Referral,Closed Won,28800.0,1.0,2026-08-24,2026-07-11,28800.0,28800.0,2026-08
+OPP0152,Vertex Systems 20 · 152,ACC020,Vertex Systems 20,REP08,Representative 08,India,Analytics Cloud,Partner,Closed Won,35000.0,1.0,2026-03-22,2026-03-01,35000.0,35000.0,2026-03
+OPP0153,Summit Systems 17 · 153,ACC017,Summit Systems 17,REP09,Representative 09,APAC,Analytics Cloud,Partner,Closed Won,15100.0,1.0,2026-08-06,2026-06-23,15100.0,15100.0,2026-08
+OPP0154,Vertex Systems 26 · 154,ACC026,Vertex Systems 26,REP10,Representative 10,EMEA,Analytics Cloud,Partner,Closed Won,34400.0,1.0,2026-02-24,2026-01-13,34400.0,34400.0,2026-02
+OPP0155,Nova Systems 19 · 155,ACC019,Nova Systems 19,REP11,Representative 11,North America,Automation Hub,Outbound,Closed Lost,19000.0,0.0,2026-06-01,2026-05-18,0.0,0,2026-06
+OPP0156,Orion Systems 04 · 156,ACC004,Orion Systems 04,REP12,Representative 12,India,Automation Hub,Outbound,Closed Won,19600.0,1.0,2026-01-26,2025-10-29,19600.0,19600.0,2026-01
+OPP0157,Nova Systems 13 · 157,ACC013,Nova Systems 13,REP01,Representative 01,APAC,Automation Hub,Web,Closed Won,36700.0,1.0,2026-06-30,2026-05-21,36700.0,36700.0,2026-06
+OPP0158,Alpha Systems 18 · 158,ACC018,Alpha Systems 18,REP02,Representative 02,EMEA,Automation Hub,Referral,Closed Won,20800.0,1.0,2026-03-12,2026-02-16,20800.0,20800.0,2026-03
+OPP0159,Nova Systems 31 · 159,ACC031,Nova Systems 31,REP03,Representative 03,North America,CRM Suite,Partner,Prospecting,21700.0,0.1,2026-07-06,2026-06-08,2170.0,0,2026-07
+OPP0160,Orion Systems 28 · 160,ACC028,Orion Systems 28,REP04,Representative 04,India,Analytics Cloud,Partner,Qualification,13400.0,0.25,2026-03-09,2025-12-18,3350.0,0,2026-03
+OPP0161,Summit Systems 17 · 161,ACC017,Summit Systems 17,REP05,Representative 05,APAC,Automation Hub,Partner,Closed Lost,10800.0,0.0,2026-09-04,2026-07-17,0.0,0,2026-09
+OPP0162,Alpha Systems 30 · 162,ACC030,Alpha Systems 30,REP06,Representative 06,EMEA,Automation Hub,Outbound,Closed Lost,33500.0,0.0,2026-03-14,2026-02-02,0.0,0,2026-03
+OPP0163,Summit Systems 23 · 163,ACC023,Summit Systems 23,REP07,Representative 07,North America,Analytics Cloud,Referral,Prospecting,28200.0,0.1,2026-07-22,2026-07-09,2820.0,0,2026-07
+OPP0164,Alpha Systems 24 · 164,ACC024,Alpha Systems 24,REP08,Representative 08,India,Analytics Cloud,Partner,Closed Won,10500.0,1.0,2026-05-15,2026-02-18,10500.0,10500.0,2026-05
+OPP0165,Nova Systems 13 · 165,ACC013,Nova Systems 13,REP09,Representative 09,APAC,CRM Suite,Referral,Negotiation,37500.0,0.8,2026-06-17,2026-03-19,30000.0,0,2026-06
+OPP0166,Alpha Systems 30 · 166,ACC030,Alpha Systems 30,REP10,Representative 10,EMEA,CRM Suite,Web,Closed Lost,7300.0,0.0,2026-06-04,2026-04-01,0.0,0,2026-06
+OPP0167,BluePeak Systems 03 · 167,ACC003,BluePeak Systems 03,REP11,Representative 11,North America,CRM Suite,Web,Needs Analysis,32500.0,0.4,2026-09-10,2026-08-15,13000.0,0,2026-09
+OPP0168,Alpha Systems 12 · 168,ACC012,Alpha Systems 12,REP12,Representative 12,India,Analytics Cloud,Web,Proposal,26200.0,0.6,2026-07-09,2026-04-19,15720.0,0,2026-07
+OPP0169,Summit Systems 05 · 169,ACC005,Summit Systems 05,REP01,Representative 01,APAC,CRM Suite,Partner,Closed Won,16100.0,1.0,2026-07-28,2026-06-11,16100.0,16100.0,2026-07
+OPP0170,Alpha Systems 30 · 170,ACC030,Alpha Systems 30,REP02,Representative 02,EMEA,CRM Suite,Partner,Proposal,32800.0,0.6,2026-05-01,2026-03-04,19680.0,0,2026-05
+OPP0171,Summit Systems 23 · 171,ACC023,Summit Systems 23,REP03,Representative 03,North America,CRM Suite,Outbound,Prospecting,9600.0,0.1,2026-05-22,2026-04-16,960.0,0,2026-05
+OPP0172,Orion Systems 16 · 172,ACC016,Orion Systems 16,REP04,Representative 04,India,Analytics Cloud,Web,Closed Won,11400.0,1.0,2026-01-11,2025-12-24,11400.0,11400.0,2026-01
+OPP0173,Nova Systems 37 · 173,ACC037,Nova Systems 37,REP05,Representative 05,APAC,CRM Suite,Web,Qualification,21800.0,0.25,2026-04-17,2026-01-20,5450.0,0,2026-04
+OPP0174,Orion Systems 10 · 174,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,CRM Suite,Web,Closed Won,32600.0,1.0,2026-01-02,2025-11-16,32600.0,32600.0,2026-01
+OPP0175,Nova Systems 19 · 175,ACC019,Nova Systems 19,REP07,Representative 07,North America,CRM Suite,Referral,Closed Won,23300.0,1.0,2026-02-26,2026-02-11,23300.0,23300.0,2026-02
+OPP0176,Orion Systems 16 · 176,ACC016,Orion Systems 16,REP08,Representative 08,India,Analytics Cloud,Referral,Closed Won,11400.0,1.0,2026-01-09,2025-12-06,11400.0,11400.0,2026-01
+OPP0177,Nova Systems 25 · 177,ACC025,Nova Systems 25,REP09,Representative 09,APAC,Analytics Cloud,Partner,Negotiation,31200.0,0.8,2026-02-02,2025-11-22,24960.0,0,2026-02
+OPP0178,Vertex Systems 38 · 178,ACC038,Vertex Systems 38,REP10,Representative 10,EMEA,Automation Hub,Referral,Prospecting,42200.0,0.1,2026-09-15,2026-08-06,4220.0,0,2026-09
+OPP0179,Summit Systems 35 · 179,ACC035,Summit Systems 35,REP11,Representative 11,North America,Analytics Cloud,Outbound,Needs Analysis,26800.0,0.4,2026-01-16,2025-12-28,10720.0,0,2026-01
+OPP0180,Vertex Systems 08 · 180,ACC008,Vertex Systems 08,REP12,Representative 12,India,CRM Suite,Partner,Negotiation,36100.0,0.8,2026-08-16,2026-07-26,28880.0,0,2026-08
+OPP0181,BluePeak Systems 09 · 181,ACC009,BluePeak Systems 09,REP01,Representative 01,APAC,Automation Hub,Partner,Prospecting,24500.0,0.1,2026-05-21,2026-02-24,2450.0,0,2026-05
+OPP0182,Vertex Systems 38 · 182,ACC038,Vertex Systems 38,REP02,Representative 02,EMEA,Automation Hub,Outbound,Negotiation,10000.0,0.8,2026-08-21,2026-06-06,8000.0,0,2026-08
+OPP0183,Nova Systems 07 · 183,ACC007,Nova Systems 07,REP03,Representative 03,North America,Analytics Cloud,Web,Closed Won,26100.0,1.0,2026-04-21,2026-02-13,26100.0,26100.0,2026-04
+OPP0184,Alpha Systems 24 · 184,ACC024,Alpha Systems 24,REP04,Representative 04,India,Automation Hub,Referral,Closed Won,21000.0,1.0,2026-07-24,2026-05-20,21000.0,21000.0,2026-07
+OPP0185,Nova Systems 25 · 185,ACC025,Nova Systems 25,REP05,Representative 05,APAC,CRM Suite,Outbound,Needs Analysis,8400.0,0.4,2026-05-11,2026-03-13,3360.0,0,2026-05
+OPP0186,Alpha Systems 06 · 186,ACC006,Alpha Systems 06,REP06,Representative 06,EMEA,CRM Suite,Partner,Closed Won,11600.0,1.0,2026-02-17,2025-12-12,11600.0,11600.0,2026-02
+OPP0187,Summit Systems 35 · 187,ACC035,Summit Systems 35,REP07,Representative 07,North America,Analytics Cloud,Partner,Prospecting,39000.0,0.1,2026-06-18,2026-05-22,3900.0,0,2026-06
+OPP0188,Orion Systems 28 · 188,ACC028,Orion Systems 28,REP08,Representative 08,India,Automation Hub,Partner,Closed Lost,23000.0,0.0,2026-01-27,2025-12-10,0.0,0,2026-01
+OPP0189,Summit Systems 05 · 189,ACC005,Summit Systems 05,REP09,Representative 09,APAC,Automation Hub,Outbound,Closed Won,16400.0,1.0,2026-04-19,2026-03-19,16400.0,16400.0,2026-04
+OPP0190,Alpha Systems 06 · 190,ACC006,Alpha Systems 06,REP10,Representative 10,EMEA,Analytics Cloud,Web,Proposal,26900.0,0.6,2026-07-08,2026-06-12,16140.0,0,2026-07
+OPP0191,Summit Systems 35 · 191,ACC035,Summit Systems 35,REP11,Representative 11,North America,Automation Hub,Partner,Closed Lost,6400.0,0.0,2026-01-14,2025-10-17,0.0,0,2026-01
+OPP0192,Alpha Systems 12 · 192,ACC012,Alpha Systems 12,REP12,Representative 12,India,Analytics Cloud,Referral,Needs Analysis,14200.0,0.4,2026-06-08,2026-04-14,5680.0,0,2026-06
+OPP0193,BluePeak Systems 09 · 193,ACC009,BluePeak Systems 09,REP01,Representative 01,APAC,CRM Suite,Referral,Closed Won,9600.0,1.0,2026-07-25,2026-07-05,9600.0,9600.0,2026-07
+OPP0194,Orion Systems 34 · 194,ACC034,Orion Systems 34,REP02,Representative 02,EMEA,Analytics Cloud,Web,Qualification,23900.0,0.25,2026-08-03,2026-05-25,5975.0,0,2026-08
+OPP0195,Nova Systems 19 · 195,ACC019,Nova Systems 19,REP03,Representative 03,North America,CRM Suite,Web,Closed Won,43600.0,1.0,2026-02-13,2026-01-26,43600.0,43600.0,2026-02
+OPP0196,Orion Systems 40 · 196,ACC040,Orion Systems 40,REP04,Representative 04,India,Analytics Cloud,Outbound,Prospecting,29800.0,0.1,2026-02-11,2025-12-27,2980.0,0,2026-02
+OPP0197,Nova Systems 37 · 197,ACC037,Nova Systems 37,REP05,Representative 05,APAC,Automation Hub,Referral,Proposal,22600.0,0.6,2026-05-20,2026-04-11,13560.0,0,2026-05
+OPP0198,Vertex Systems 26 · 198,ACC026,Vertex Systems 26,REP06,Representative 06,EMEA,Automation Hub,Partner,Prospecting,7300.0,0.1,2026-09-07,2026-06-20,730.0,0,2026-09
+OPP0199,BluePeak Systems 15 · 199,ACC015,BluePeak Systems 15,REP07,Representative 07,North America,CRM Suite,Partner,Proposal,15800.0,0.6,2026-01-29,2026-01-17,9480.0,0,2026-01
+OPP0200,Alpha Systems 12 · 200,ACC012,Alpha Systems 12,REP08,Representative 08,India,CRM Suite,Referral,Closed Won,30400.0,1.0,2026-05-29,2026-04-06,30400.0,30400.0,2026-05
+OPP0201,Nova Systems 25 · 201,ACC025,Nova Systems 25,REP09,Representative 09,APAC,Automation Hub,Web,Qualification,30600.0,0.25,2026-07-14,2026-04-25,7650.0,0,2026-07
+OPP0202,Orion Systems 34 · 202,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Analytics Cloud,Referral,Closed Won,27300.0,1.0,2026-07-01,2026-06-10,27300.0,27300.0,2026-07
+OPP0203,BluePeak Systems 03 · 203,ACC003,BluePeak Systems 03,REP11,Representative 11,North America,Automation Hub,Outbound,Proposal,34300.0,0.6,2026-02-09,2025-12-19,20580.0,0,2026-02
+OPP0204,Orion Systems 28 · 204,ACC028,Orion Systems 28,REP12,Representative 12,India,CRM Suite,Outbound,Closed Won,6000.0,1.0,2026-08-02,2026-06-14,6000.0,6000.0,2026-08
+OPP0205,BluePeak Systems 21 · 205,ACC021,BluePeak Systems 21,REP01,Representative 01,APAC,CRM Suite,Outbound,Qualification,10400.0,0.25,2026-08-24,2026-06-27,2600.0,0,2026-08
+OPP0206,Vertex Systems 14 · 206,ACC014,Vertex Systems 14,REP02,Representative 02,EMEA,CRM Suite,Outbound,Proposal,20800.0,0.6,2026-07-25,2026-05-07,12480.0,0,2026-07
+OPP0207,Summit Systems 23 · 207,ACC023,Summit Systems 23,REP03,Representative 03,North America,Automation Hub,Referral,Qualification,32100.0,0.25,2026-03-28,2026-03-07,8025.0,0,2026-03
+OPP0208,Alpha Systems 36 · 208,ACC036,Alpha Systems 36,REP04,Representative 04,India,Automation Hub,Web,Qualification,17000.0,0.25,2026-06-28,2026-05-03,4250.0,0,2026-06
+OPP0209,Summit Systems 05 · 209,ACC005,Summit Systems 05,REP05,Representative 05,APAC,Automation Hub,Web,Qualification,43900.0,0.25,2026-04-12,2026-03-09,10975.0,0,2026-04
+OPP0210,Alpha Systems 06 · 210,ACC006,Alpha Systems 06,REP06,Representative 06,EMEA,Automation Hub,Outbound,Qualification,39800.0,0.25,2026-09-10,2026-07-01,9950.0,0,2026-09
+OPP0211,BluePeak Systems 39 · 211,ACC039,BluePeak Systems 39,REP07,Representative 07,North America,CRM Suite,Outbound,Closed Won,8400.0,1.0,2026-06-15,2026-04-24,8400.0,8400.0,2026-06
+OPP0212,Vertex Systems 32 · 212,ACC032,Vertex Systems 32,REP08,Representative 08,India,Automation Hub,Referral,Proposal,23000.0,0.6,2026-06-05,2026-04-19,13800.0,0,2026-06
+OPP0213,BluePeak Systems 33 · 213,ACC033,BluePeak Systems 33,REP09,Representative 09,APAC,CRM Suite,Referral,Prospecting,23800.0,0.1,2026-08-25,2026-06-17,2380.0,0,2026-08
+OPP0214,Alpha Systems 18 · 214,ACC018,Alpha Systems 18,REP10,Representative 10,EMEA,Automation Hub,Outbound,Prospecting,28600.0,0.1,2026-02-16,2025-11-18,2860.0,0,2026-02
+OPP0215,BluePeak Systems 39 · 215,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,Automation Hub,Web,Negotiation,21400.0,0.8,2026-01-22,2025-11-14,17120.0,0,2026-01
+OPP0216,Orion Systems 40 · 216,ACC040,Orion Systems 40,REP12,Representative 12,India,Analytics Cloud,Referral,Negotiation,22500.0,0.8,2026-03-19,2026-02-28,18000.0,0,2026-03
+OPP0217,Summit Systems 05 · 217,ACC005,Summit Systems 05,REP01,Representative 01,APAC,CRM Suite,Outbound,Negotiation,27400.0,0.8,2026-03-30,2026-03-13,21920.0,0,2026-03
+OPP0218,Orion Systems 34 · 218,ACC034,Orion Systems 34,REP02,Representative 02,EMEA,Analytics Cloud,Partner,Negotiation,24800.0,0.8,2026-03-23,2026-01-24,19840.0,0,2026-03
+OPP0219,BluePeak Systems 27 · 219,ACC027,BluePeak Systems 27,REP03,Representative 03,North America,CRM Suite,Partner,Closed Won,9800.0,1.0,2026-01-27,2025-12-04,9800.0,9800.0,2026-01
+OPP0220,Alpha Systems 36 · 220,ACC036,Alpha Systems 36,REP04,Representative 04,India,Automation Hub,Web,Closed Won,22000.0,1.0,2026-05-26,2026-04-12,22000.0,22000.0,2026-05
+OPP0221,Summit Systems 05 · 221,ACC005,Summit Systems 05,REP05,Representative 05,APAC,Analytics Cloud,Outbound,Closed Won,11600.0,1.0,2026-03-14,2026-01-17,11600.0,11600.0,2026-03
+OPP0222,Vertex Systems 38 · 222,ACC038,Vertex Systems 38,REP06,Representative 06,EMEA,Automation Hub,Outbound,Closed Won,37900.0,1.0,2026-02-13,2025-12-24,37900.0,37900.0,2026-02
+OPP0223,Summit Systems 23 · 223,ACC023,Summit Systems 23,REP07,Representative 07,North America,Automation Hub,Outbound,Closed Won,31000.0,1.0,2026-09-27,2026-09-04,31000.0,31000.0,2026-09
+OPP0224,Alpha Systems 24 · 224,ACC024,Alpha Systems 24,REP08,Representative 08,India,CRM Suite,Partner,Prospecting,44200.0,0.1,2026-06-08,2026-05-04,4420.0,0,2026-06
+OPP0225,Summit Systems 29 · 225,ACC029,Summit Systems 29,REP09,Representative 09,APAC,CRM Suite,Partner,Qualification,10100.0,0.25,2026-03-12,2026-02-09,2525.0,0,2026-03
+OPP0226,Orion Systems 34 · 226,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Automation Hub,Partner,Closed Won,44200.0,1.0,2026-09-27,2026-09-11,44200.0,44200.0,2026-09
+OPP0227,BluePeak Systems 39 · 227,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,CRM Suite,Web,Qualification,40400.0,0.25,2026-07-12,2026-06-11,10100.0,0,2026-07
+OPP0228,Orion Systems 40 · 228,ACC040,Orion Systems 40,REP12,Representative 12,India,CRM Suite,Outbound,Closed Won,23600.0,1.0,2026-03-26,2026-01-17,23600.0,23600.0,2026-03
+OPP0229,Nova Systems 13 · 229,ACC013,Nova Systems 13,REP01,Representative 01,APAC,CRM Suite,Web,Closed Lost,20800.0,0.0,2026-05-26,2026-03-18,0.0,0,2026-05
+OPP0230,Alpha Systems 30 · 230,ACC030,Alpha Systems 30,REP02,Representative 02,EMEA,Automation Hub,Outbound,Closed Lost,28600.0,0.0,2026-04-10,2026-02-10,0.0,0,2026-04
+OPP0231,Nova Systems 19 · 231,ACC019,Nova Systems 19,REP03,Representative 03,North America,Analytics Cloud,Web,Closed Won,15200.0,1.0,2026-09-15,2026-06-28,15200.0,15200.0,2026-09
+OPP0232,Orion Systems 40 · 232,ACC040,Orion Systems 40,REP04,Representative 04,India,Automation Hub,Outbound,Qualification,24000.0,0.25,2026-05-09,2026-04-21,6000.0,0,2026-05
+OPP0233,BluePeak Systems 33 · 233,ACC033,BluePeak Systems 33,REP05,Representative 05,APAC,Analytics Cloud,Referral,Closed Lost,44000.0,0.0,2026-09-22,2026-08-26,0.0,0,2026-09
+OPP0234,Orion Systems 10 · 234,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,Analytics Cloud,Referral,Needs Analysis,16300.0,0.4,2026-09-20,2026-08-21,6520.0,0,2026-09
+OPP0235,Nova Systems 31 · 235,ACC031,Nova Systems 31,REP07,Representative 07,North America,CRM Suite,Outbound,Closed Lost,30700.0,0.0,2026-01-14,2025-11-10,0.0,0,2026-01
+OPP0236,Alpha Systems 24 · 236,ACC024,Alpha Systems 24,REP08,Representative 08,India,CRM Suite,Referral,Qualification,21300.0,0.25,2026-02-11,2025-12-14,5325.0,0,2026-02
+OPP0237,Summit Systems 05 · 237,ACC005,Summit Systems 05,REP09,Representative 09,APAC,CRM Suite,Referral,Closed Won,19600.0,1.0,2026-06-21,2026-05-22,19600.0,19600.0,2026-06
+OPP0238,Alpha Systems 30 · 238,ACC030,Alpha Systems 30,REP10,Representative 10,EMEA,Analytics Cloud,Referral,Closed Won,9000.0,1.0,2026-03-13,2025-12-31,9000.0,9000.0,2026-03
+OPP0239,BluePeak Systems 03 · 239,ACC003,BluePeak Systems 03,REP11,Representative 11,North America,Automation Hub,Outbound,Needs Analysis,10600.0,0.4,2026-03-18,2025-12-26,4240.0,0,2026-03
+OPP0240,Vertex Systems 20 · 240,ACC020,Vertex Systems 20,REP12,Representative 12,India,CRM Suite,Outbound,Qualification,37700.0,0.25,2026-03-04,2026-02-14,9425.0,0,2026-03
+OPP0241,Nova Systems 37 · 241,ACC037,Nova Systems 37,REP01,Representative 01,APAC,Automation Hub,Referral,Proposal,37300.0,0.6,2026-02-26,2025-12-13,22380.0,0,2026-02
+OPP0242,Orion Systems 34 · 242,ACC034,Orion Systems 34,REP02,Representative 02,EMEA,Analytics Cloud,Referral,Closed Won,36400.0,1.0,2026-03-15,2026-01-25,36400.0,36400.0,2026-03
+OPP0243,Summit Systems 23 · 243,ACC023,Summit Systems 23,REP03,Representative 03,North America,Automation Hub,Referral,Needs Analysis,31800.0,0.4,2026-08-02,2026-06-28,12720.0,0,2026-08
+OPP0244,Alpha Systems 24 · 244,ACC024,Alpha Systems 24,REP04,Representative 04,India,Automation Hub,Referral,Prospecting,24900.0,0.1,2026-09-27,2026-07-08,2490.0,0,2026-09
+OPP0245,Summit Systems 29 · 245,ACC029,Summit Systems 29,REP05,Representative 05,APAC,Analytics Cloud,Referral,Prospecting,23200.0,0.1,2026-07-18,2026-05-20,2320.0,0,2026-07
+OPP0246,Alpha Systems 06 · 246,ACC006,Alpha Systems 06,REP06,Representative 06,EMEA,Automation Hub,Partner,Proposal,11800.0,0.6,2026-02-23,2025-11-29,7080.0,0,2026-02
+OPP0247,BluePeak Systems 03 · 247,ACC003,BluePeak Systems 03,REP07,Representative 07,North America,Automation Hub,Outbound,Proposal,40600.0,0.6,2026-06-23,2026-05-20,24360.0,0,2026-06
+OPP0248,Vertex Systems 32 · 248,ACC032,Vertex Systems 32,REP08,Representative 08,India,Automation Hub,Outbound,Closed Won,6800.0,1.0,2026-03-11,2026-02-19,6800.0,6800.0,2026-03
+OPP0249,Summit Systems 17 · 249,ACC017,Summit Systems 17,REP09,Representative 09,APAC,Analytics Cloud,Partner,Qualification,31300.0,0.25,2026-04-13,2026-03-27,7825.0,0,2026-04
+OPP0250,Vertex Systems 26 · 250,ACC026,Vertex Systems 26,REP10,Representative 10,EMEA,CRM Suite,Web,Closed Lost,19600.0,0.0,2026-08-31,2026-07-18,0.0,0,2026-08
+OPP0251,Summit Systems 23 · 251,ACC023,Summit Systems 23,REP11,Representative 11,North America,Analytics Cloud,Referral,Closed Lost,23800.0,0.0,2026-01-25,2025-12-02,0.0,0,2026-01
+OPP0252,Orion Systems 28 · 252,ACC028,Orion Systems 28,REP12,Representative 12,India,Analytics Cloud,Web,Closed Lost,30400.0,0.0,2026-08-14,2026-06-14,0.0,0,2026-08
+OPP0253,Summit Systems 29 · 253,ACC029,Summit Systems 29,REP01,Representative 01,APAC,CRM Suite,Outbound,Proposal,9000.0,0.6,2026-09-23,2026-08-08,5400.0,0,2026-09
+OPP0254,Vertex Systems 26 · 254,ACC026,Vertex Systems 26,REP02,Representative 02,EMEA,Analytics Cloud,Partner,Closed Won,10200.0,1.0,2026-04-03,2026-01-12,10200.0,10200.0,2026-04
+OPP0255,Nova Systems 07 · 255,ACC007,Nova Systems 07,REP03,Representative 03,North America,Analytics Cloud,Outbound,Needs Analysis,13500.0,0.4,2026-06-01,2026-04-11,5400.0,0,2026-06
+OPP0256,Vertex Systems 32 · 256,ACC032,Vertex Systems 32,REP04,Representative 04,India,Automation Hub,Outbound,Proposal,19000.0,0.6,2026-01-22,2025-11-26,11400.0,0,2026-01
+OPP0257,Nova Systems 01 · 257,ACC001,Nova Systems 01,REP05,Representative 05,APAC,Automation Hub,Web,Prospecting,6500.0,0.1,2026-07-27,2026-05-30,650.0,0,2026-07
+OPP0258,Orion Systems 10 · 258,ACC010,Orion Systems 10,REP06,Representative 06,EMEA,CRM Suite,Referral,Closed Won,17000.0,1.0,2026-08-13,2026-07-28,17000.0,17000.0,2026-08
+OPP0259,Summit Systems 23 · 259,ACC023,Summit Systems 23,REP07,Representative 07,North America,CRM Suite,Outbound,Proposal,23900.0,0.6,2026-01-17,2025-10-20,14340.0,0,2026-01
+OPP0260,Alpha Systems 24 · 260,ACC024,Alpha Systems 24,REP08,Representative 08,India,CRM Suite,Partner,Proposal,25300.0,0.6,2026-02-09,2025-11-16,15180.0,0,2026-02
+OPP0261,BluePeak Systems 21 · 261,ACC021,BluePeak Systems 21,REP09,Representative 09,APAC,CRM Suite,Web,Closed Won,30500.0,1.0,2026-05-08,2026-04-12,30500.0,30500.0,2026-05
+OPP0262,Orion Systems 34 · 262,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Analytics Cloud,Outbound,Proposal,15900.0,0.6,2026-03-02,2026-01-16,9540.0,0,2026-03
+OPP0263,BluePeak Systems 39 · 263,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,CRM Suite,Web,Needs Analysis,8700.0,0.4,2026-09-09,2026-08-03,3480.0,0,2026-09
+OPP0264,Vertex Systems 32 · 264,ACC032,Vertex Systems 32,REP12,Representative 12,India,Automation Hub,Partner,Qualification,39100.0,0.25,2026-08-16,2026-07-24,9775.0,0,2026-08
+OPP0265,BluePeak Systems 21 · 265,ACC021,BluePeak Systems 21,REP01,Representative 01,APAC,CRM Suite,Web,Closed Won,23500.0,1.0,2026-05-29,2026-04-09,23500.0,23500.0,2026-05
+OPP0266,Orion Systems 34 · 266,ACC034,Orion Systems 34,REP02,Representative 02,EMEA,CRM Suite,Outbound,Qualification,6300.0,0.25,2026-04-13,2026-03-15,1575.0,0,2026-04
+OPP0267,Summit Systems 23 · 267,ACC023,Summit Systems 23,REP03,Representative 03,North America,Automation Hub,Web,Negotiation,36300.0,0.8,2026-07-08,2026-04-28,29040.0,0,2026-07
+OPP0268,Vertex Systems 08 · 268,ACC008,Vertex Systems 08,REP04,Representative 04,India,Automation Hub,Outbound,Prospecting,44300.0,0.1,2026-07-23,2026-05-11,4430.0,0,2026-07
+OPP0269,Nova Systems 25 · 269,ACC025,Nova Systems 25,REP05,Representative 05,APAC,Analytics Cloud,Referral,Closed Won,28000.0,1.0,2026-02-07,2026-01-10,28000.0,28000.0,2026-02
+OPP0270,Alpha Systems 30 · 270,ACC030,Alpha Systems 30,REP06,Representative 06,EMEA,Automation Hub,Web,Closed Won,44300.0,1.0,2026-06-26,2026-05-29,44300.0,44300.0,2026-06
+OPP0271,Summit Systems 11 · 271,ACC011,Summit Systems 11,REP07,Representative 07,North America,Automation Hub,Web,Proposal,20500.0,0.6,2026-01-29,2026-01-02,12300.0,0,2026-01
+OPP0272,Alpha Systems 12 · 272,ACC012,Alpha Systems 12,REP08,Representative 08,India,Automation Hub,Partner,Qualification,9000.0,0.25,2026-04-26,2026-03-01,2250.0,0,2026-04
+OPP0273,Summit Systems 17 · 273,ACC017,Summit Systems 17,REP09,Representative 09,APAC,Automation Hub,Partner,Qualification,36400.0,0.25,2026-05-21,2026-04-23,9100.0,0,2026-05
+OPP0274,Orion Systems 34 · 274,ACC034,Orion Systems 34,REP10,Representative 10,EMEA,Automation Hub,Web,Prospecting,13700.0,0.1,2026-03-28,2025-12-31,1370.0,0,2026-03
+OPP0275,BluePeak Systems 39 · 275,ACC039,BluePeak Systems 39,REP11,Representative 11,North America,CRM Suite,Referral,Closed Won,9100.0,1.0,2026-06-22,2026-03-30,9100.0,9100.0,2026-06
+OPP0276,Orion Systems 04 · 276,ACC004,Orion Systems 04,REP12,Representative 12,India,Automation Hub,Outbound,Closed Lost,36600.0,0.0,2026-05-16,2026-04-08,0.0,0,2026-05
+OPP0277,Nova Systems 01 · 277,ACC001,Nova Systems 01,REP01,Representative 01,APAC,Analytics Cloud,Web,Negotiation,40000.0,0.8,2026-05-29,2026-04-09,32000.0,0,2026-05
+OPP0278,Vertex Systems 26 · 278,ACC026,Vertex Systems 26,REP02,Representative 02,EMEA,CRM Suite,Outbound,Needs Analysis,26200.0,0.4,2026-02-07,2026-01-19,10480.0,0,2026-02
+OPP0279,Nova Systems 31 · 279,ACC031,Nova Systems 31,REP03,Representative 03,North America,CRM Suite,Partner,Negotiation,41700.0,0.8,2026-06-24,2026-03-27,33360.0,0,2026-06
+OPP0280,Alpha Systems 24 · 280,ACC024,Alpha Systems 24,REP04,Representative 04,India,CRM Suite,Partner,Closed Won,31300.0,1.0,2026-06-26,2026-04-24,31300.0,31300.0,2026-06
+OPP0281,BluePeak Systems 33 · 281,ACC033,BluePeak Systems 33,REP05,Representative 05,APAC,CRM Suite,Partner,Prospecting,28000.0,0.1,2026-05-04,2026-02-22,2800.0,0,2026-05
+OPP0282,Vertex Systems 14 · 282,ACC014,Vertex Systems 14,REP06,Representative 06,EMEA,Analytics Cloud,Outbound,Qualification,17700.0,0.25,2026-01-26,2025-12-08,4425.0,0,2026-01
+OPP0283,Summit Systems 11 · 283,ACC011,Summit Systems 11,REP07,Representative 07,North America,CRM Suite,Outbound,Closed Won,31300.0,1.0,2026-06-10,2026-05-05,31300.0,31300.0,2026-06
+OPP0284,Vertex Systems 32 · 284,ACC032,Vertex Systems 32,REP08,Representative 08,India,CRM Suite,Referral,Negotiation,25100.0,0.8,2026-06-07,2026-03-24,20080.0,0,2026-06
+OPP0285,BluePeak Systems 33 · 285,ACC033,BluePeak Systems 33,REP09,Representative 09,APAC,Automation Hub,Partner,Proposal,7400.0,0.6,2026-05-04,2026-03-26,4440.0,0,2026-05
+OPP0286,Vertex Systems 02 · 286,ACC002,Vertex Systems 02,REP10,Representative 10,EMEA,Automation Hub,Referral,Needs Analysis,10500.0,0.4,2026-08-29,2026-07-12,4200.0,0,2026-08
+OPP0287,BluePeak Systems 27 · 287,ACC027,BluePeak Systems 27,REP11,Representative 11,North America,Analytics Cloud,Partner,Qualification,7300.0,0.25,2026-05-16,2026-03-19,1825.0,0,2026-05
+OPP0288,Orion Systems 28 · 288,ACC028,Orion Systems 28,REP12,Representative 12,India,Automation Hub,Partner,Prospecting,8700.0,0.1,2026-04-10,2026-02-11,870.0,0,2026-04
+OPP0289,Nova Systems 25 · 289,ACC025,Nova Systems 25,REP01,Representative 01,APAC,CRM Suite,Web,Negotiation,9900.0,0.8,2026-05-24,2026-02-23,7920.0,0,2026-05
+OPP0290,Vertex Systems 26 · 290,ACC026,Vertex Systems 26,REP02,Representative 02,EMEA,Analytics Cloud,Web,Proposal,15100.0,0.6,2026-06-23,2026-04-01,9060.0,0,2026-06
+OPP0291,BluePeak Systems 39 · 291,ACC039,BluePeak Systems 39,REP03,Representative 03,North America,CRM Suite,Referral,Negotiation,12000.0,0.8,2026-09-14,2026-08-28,9600.0,0,2026-09
+OPP0292,Alpha Systems 24 · 292,ACC024,Alpha Systems 24,REP04,Representative 04,India,CRM Suite,Web,Closed Won,21700.0,1.0,2026-09-23,2026-07-15,21700.0,21700.0,2026-09
+OPP0293,Nova Systems 37 · 293,ACC037,Nova Systems 37,REP05,Representative 05,APAC,Automation Hub,Partner,Needs Analysis,35300.0,0.4,2026-07-21,2026-04-22,14120.0,0,2026-07
+OPP0294,Orion Systems 22 · 294,ACC022,Orion Systems 22,REP06,Representative 06,EMEA,Analytics Cloud,Partner,Negotiation,29300.0,0.8,2026-09-18,2026-06-30,23440.0,0,2026-09
+OPP0295,BluePeak Systems 03 · 295,ACC003,BluePeak Systems 03,REP07,Representative 07,North America,Automation Hub,Partner,Proposal,42100.0,0.6,2026-02-26,2025-12-23,25260.0,0,2026-02
+OPP0296,Orion Systems 04 · 296,ACC004,Orion Systems 04,REP08,Representative 08,India,Automation Hub,Web,Closed Won,41900.0,1.0,2026-05-16,2026-02-19,41900.0,41900.0,2026-05
+OPP0297,Nova Systems 01 · 297,ACC001,Nova Systems 01,REP09,Representative 09,APAC,Automation Hub,Outbound,Closed Won,12500.0,1.0,2026-03-29,2026-01-09,12500.0,12500.0,2026-03
+OPP0298,Vertex Systems 14 · 298,ACC014,Vertex Systems 14,REP10,Representative 10,EMEA,CRM Suite,Outbound,Prospecting,21000.0,0.1,2026-02-26,2026-01-21,2100.0,0,2026-02
+OPP0299,BluePeak Systems 27 · 299,ACC027,BluePeak Systems 27,REP11,Representative 11,North America,Automation Hub,Outbound,Qualification,42600.0,0.25,2026-04-15,2026-02-10,10650.0,0,2026-04
+OPP0300,Orion Systems 04 · 300,ACC004,Orion Systems 04,REP12,Representative 12,India,Automation Hub,Partner,Closed Won,38900.0,1.0,2026-09-23,2026-08-16,38900.0,38900.0,2026-09

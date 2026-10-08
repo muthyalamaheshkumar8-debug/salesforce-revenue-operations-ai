@@ -1,0 +1,20 @@
+record,input_row,field,issue,severity,disposition,resolution,region
+OPP0008,8,amount,Non-negative amount,High,Quarantined,Excluded from reporting; correction required,India
+OPP0019,19,close_date,Valid close date,High,Quarantined,Excluded from reporting; correction required,North America
+OPP0026,26,rep_id,Known owner,High,Quarantined,Excluded from reporting; correction required,Emea
+OPP0040,40,stage,Known sales stage,High,Quarantined,Excluded from reporting; correction required,India
+OPP0040,40,probability,Stage probability,High,Quarantined,Excluded from reporting; correction required,India
+OPP0043,43,region,Inconsistent formatting,Low,Standardized,Trimmed whitespace and mapped to canonical region,North America
+OPP0062,62,account_id,Known account,High,Quarantined,Excluded from reporting; correction required,Emea
+OPP0067,67,region,Inconsistent formatting,Low,Standardized,Trimmed whitespace and mapped to canonical region,North America
+OPP0087,87,region,Inconsistent formatting,Low,Standardized,Trimmed whitespace and mapped to canonical region,North America
+OPP0091,91,close_date,Valid close date,High,Quarantined,Excluded from reporting; correction required,North America
+OPP0112,112,probability,Stage probability,High,Quarantined,Excluded from reporting; correction required,India
+OPP0144,144,region,Inconsistent formatting,Low,Standardized,Trimmed whitespace and mapped to canonical region,India
+OPP0193,193,region,Inconsistent formatting,Low,Standardized,Trimmed whitespace and mapped to canonical region,Apac
+OPP0001,301,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,Apac
+OPP0002,302,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,Emea
+OPP0003,303,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,North America
+OPP0004,304,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,India
+OPP0005,305,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,Apac
+OPP0006,306,opportunity_id,Exact duplicate,Medium,Removed,Retained the first identical row,Emea
