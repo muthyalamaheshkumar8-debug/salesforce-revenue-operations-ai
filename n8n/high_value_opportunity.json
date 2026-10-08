@@ -1,0 +1,201 @@
+{
+  "name": "Salesforce high-value opportunity review",
+  "nodes": [
+    {
+      "id": "trigger",
+      "name": "Opportunity updated",
+      "type": "n8n-nodes-base.salesforceTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "authentication": "oAuth2",
+        "triggerOn": "opportunityUpdated",
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fetch",
+      "name": "Fetch opportunity",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "url": "={{ $env.SALESFORCE_INSTANCE_URL + '/services/data/' + ($env.SALESFORCE_API_VERSION || 'v68.0') + '/sobjects/Opportunity/' + encodeURIComponent($json.Id) }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "salesforceOAuth2Api",
+        "options": {
+          "timeout": 30000
+        }
+      }
+    },
+    {
+      "id": "validate",
+      "name": "Validate currency and required fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const expected = $env.WORKFLOW_CURRENCY || 'INR';\nconst threshold = Number($env.HIGH_VALUE_THRESHOLD || 500000);\nif (!Number.isFinite(threshold) || threshold < 0) throw new Error('Invalid threshold');\nreturn $input.all().map(item => {\n  const o = item.json;\n  if (!o.Id || !o.StageName || !o.LastModifiedDate || (o.Amount == null || o.Amount === '') || !o.CurrencyIsoCode) throw new Error('Incomplete opportunity');\n  const amount = Number(o.Amount);\n  if (!Number.isFinite(amount) || amount < 0) throw new Error('Invalid amount');\n  if (o.CurrencyIsoCode !== expected) throw new Error('Currency mismatch; no implicit FX conversion');\n  return {json:{opportunity:o,event_id:o.Id + ':' + o.LastModifiedDate,mode:$env.ANALYSIS_MODE || 'rules',high_value:amount >= threshold}};\n});"
+      }
+    },
+    {
+      "id": "threshold",
+      "name": "High-value gate",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        720,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "high-value",
+              "leftValue": "={{ $json.high_value }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "analyze",
+      "name": "Analyze and store review outbox",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        960,
+        -80
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.REVENUE_API_URL + '/api/analyze' }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({opportunity:$json.opportunity,event_id:$json.event_id,mode:$json.mode}) }}",
+        "options": {
+          "timeout": 60000
+        }
+      }
+    },
+    {
+      "id": "review",
+      "name": "Notification review required",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1200,
+        -80
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "note",
+      "name": "Setup and status",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        120,
+        -300
+      ],
+      "parameters": {
+        "content": "INACTIVE TEMPLATE: select Salesforce OAuth credentials on trigger and fetch. Select Header Auth for API: Authorization = Bearer <your configured token>. Configure instance/API origins and matching currency/threshold. Default analysis uses rules; LLM needs model credentials. Stored outbox requires human review. Add notifications only after choosing recipients and testing. No native n8n execution claimed.",
+        "height": 240,
+        "width": 880
+      }
+    }
+  ],
+  "connections": {
+    "Opportunity updated": {
+      "main": [
+        [
+          {
+            "node": "Fetch opportunity",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch opportunity": {
+      "main": [
+        [
+          {
+            "node": "Validate currency and required fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate currency and required fields": {
+      "main": [
+        [
+          {
+            "node": "High-value gate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "High-value gate": {
+      "main": [
+        [
+          {
+            "node": "Analyze and store review outbox",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Analyze and store review outbox": {
+      "main": [
+        [
+          {
+            "node": "Notification review required",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}
