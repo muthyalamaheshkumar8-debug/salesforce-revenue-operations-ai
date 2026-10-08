@@ -1,0 +1,6 @@
+# Data dictionary — Maven CRM import
+One row per opportunity; original opportunity IDs preserved. Accounts, products and agents join from the source dimensions. `region` is the agent's sales office (East, West, Central), not customer geography. `created_date` is a compatibility alias for source `engage_date`; it is not a creation timestamp. `amount` maps source `close_value`; open amounts remain null. `close_date` is an actual closed-deal date, not an expected date. `month` is closing month, or `Not closed` for open deals. Won/Lost map to Closed Won/Closed Lost; Engaging and Prospecting retain source meanings.
+
+Source product `GTXPro` is mapped to dimension `GTX Pro` in 1,480 opportunities. Missing account IDs and names remain null in 1,425 open opportunities. No contacts or leads are supplied; those tables are empty. Original unmodified CSVs and their dictionary are in `data/source/maven_crm/`.
+
+Closed outcomes carry probability 1 (Won) or 0 (Lost); open probabilities and all expected-revenue fields remain null. These are not calibrated stage probabilities. Targets ($500,000 per agent, full 2017) and rate (5%) are portfolio assumptions, isolated in the compensation scenario. Dollar formatting is a display convention, since no source currency code is supplied.

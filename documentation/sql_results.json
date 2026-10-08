@@ -1,0 +1,697 @@
+{
+  "pipeline_analysis": [
+    {
+      "stage": "Prospecting",
+      "opportunities": 500,
+      "pipeline_value": null,
+      "weighted_pipeline": null
+    },
+    {
+      "stage": "Engaging",
+      "opportunities": 1589,
+      "pipeline_value": null,
+      "weighted_pipeline": null
+    }
+  ],
+  "sales_rep_analysis": [
+    {
+      "rep": "Darcel Schlecht",
+      "target": 500000,
+      "won_revenue": 1153214,
+      "won_deals": 349,
+      "win_rate": 0.6311030741410488,
+      "achievement": 2.306428
+    },
+    {
+      "rep": "Vicki Laflamme",
+      "target": 500000,
+      "won_revenue": 478396,
+      "won_deals": 221,
+      "win_rate": 0.6368876080691642,
+      "achievement": 0.956792
+    },
+    {
+      "rep": "Kary Hendrixson",
+      "target": 500000,
+      "won_revenue": 454298,
+      "won_deals": 209,
+      "win_rate": 0.6238805970149254,
+      "achievement": 0.908596
+    },
+    {
+      "rep": "Cassey Cress",
+      "target": 500000,
+      "won_revenue": 450489,
+      "won_deals": 163,
+      "win_rate": 0.6245210727969349,
+      "achievement": 0.900978
+    },
+    {
+      "rep": "Donn Cantrell",
+      "target": 500000,
+      "won_revenue": 445860,
+      "won_deals": 158,
+      "win_rate": 0.5745454545454546,
+      "achievement": 0.89172
+    },
+    {
+      "rep": "Reed Clapper",
+      "target": 500000,
+      "won_revenue": 438336,
+      "won_deals": 155,
+      "win_rate": 0.6540084388185654,
+      "achievement": 0.876672
+    },
+    {
+      "rep": "Zane Levy",
+      "target": 500000,
+      "won_revenue": 430068,
+      "won_deals": 161,
+      "win_rate": 0.6168582375478927,
+      "achievement": 0.860136
+    },
+    {
+      "rep": "Corliss Cosme",
+      "target": 500000,
+      "won_revenue": 421036,
+      "won_deals": 150,
+      "win_rate": 0.6550218340611353,
+      "achievement": 0.842072
+    },
+    {
+      "rep": "James Ascencio",
+      "target": 500000,
+      "won_revenue": 413533,
+      "won_deals": 135,
+      "win_rate": 0.6553398058252428,
+      "achievement": 0.827066
+    },
+    {
+      "rep": "Daniell Hammack",
+      "target": 500000,
+      "won_revenue": 364229,
+      "won_deals": 114,
+      "win_rate": 0.6096256684491979,
+      "achievement": 0.728458
+    },
+    {
+      "rep": "Maureen Marcano",
+      "target": 500000,
+      "won_revenue": 350395,
+      "won_deals": 149,
+      "win_rate": 0.6995305164319249,
+      "achievement": 0.70079
+    },
+    {
+      "rep": "Gladys Colclough",
+      "target": 500000,
+      "won_revenue": 345674,
+      "won_deals": 135,
+      "win_rate": 0.5818965517241379,
+      "achievement": 0.691348
+    },
+    {
+      "rep": "Markita Hansen",
+      "target": 500000,
+      "won_revenue": 328792,
+      "won_deals": 130,
+      "win_rate": 0.5726872246696035,
+      "achievement": 0.657584
+    },
+    {
+      "rep": "Kami Bicknell",
+      "target": 500000,
+      "won_revenue": 316456,
+      "won_deals": 174,
+      "win_rate": 0.6397058823529411,
+      "achievement": 0.632912
+    },
+    {
+      "rep": "Marty Freudenburg",
+      "target": 500000,
+      "won_revenue": 291195,
+      "won_deals": 122,
+      "win_rate": 0.6288659793814433,
+      "achievement": 0.58239
+    },
+    {
+      "rep": "Elease Gluck",
+      "target": 500000,
+      "won_revenue": 289195,
+      "won_deals": 80,
+      "win_rate": 0.6349206349206349,
+      "achievement": 0.57839
+    },
+    {
+      "rep": "Jonathan Berthelot",
+      "target": 500000,
+      "won_revenue": 284886,
+      "won_deals": 171,
+      "win_rate": 0.6477272727272727,
+      "achievement": 0.569772
+    },
+    {
+      "rep": "Anna Snelling",
+      "target": 500000,
+      "won_revenue": 275056,
+      "won_deals": 208,
+      "win_rate": 0.6190476190476191,
+      "achievement": 0.550112
+    },
+    {
+      "rep": "Hayden Neloms",
+      "target": 500000,
+      "won_revenue": 272111,
+      "won_deals": 107,
+      "win_rate": 0.7039473684210527,
+      "achievement": 0.544222
+    },
+    {
+      "rep": "Boris Faz",
+      "target": 500000,
+      "won_revenue": 261631,
+      "won_deals": 101,
+      "win_rate": 0.6601307189542484,
+      "achievement": 0.523262
+    },
+    {
+      "rep": "Rosalina Dieter",
+      "target": 500000,
+      "won_revenue": 235403,
+      "won_deals": 72,
+      "win_rate": 0.6545454545454545,
+      "achievement": 0.470806
+    },
+    {
+      "rep": "Rosie Papadopoulos",
+      "target": 500000,
+      "won_revenue": 230169,
+      "won_deals": 78,
+      "win_rate": 0.6446280991735537,
+      "achievement": 0.460338
+    },
+    {
+      "rep": "Cecily Lampkin",
+      "target": 500000,
+      "won_revenue": 229800,
+      "won_deals": 107,
+      "win_rate": 0.66875,
+      "achievement": 0.4596
+    },
+    {
+      "rep": "Moses Frase",
+      "target": 500000,
+      "won_revenue": 207182,
+      "won_deals": 129,
+      "win_rate": 0.6615384615384615,
+      "achievement": 0.414364
+    },
+    {
+      "rep": "Garret Kinder",
+      "target": 500000,
+      "won_revenue": 197773,
+      "won_deals": 75,
+      "win_rate": 0.6097560975609756,
+      "achievement": 0.395546
+    },
+    {
+      "rep": "Lajuana Vencill",
+      "target": 500000,
+      "won_revenue": 194632,
+      "won_deals": 127,
+      "win_rate": 0.5497835497835498,
+      "achievement": 0.389264
+    },
+    {
+      "rep": "Versie Hillebrand",
+      "target": 500000,
+      "won_revenue": 187693,
+      "won_deals": 176,
+      "win_rate": 0.6666666666666666,
+      "achievement": 0.375386
+    },
+    {
+      "rep": "Niesha Huffines",
+      "target": 500000,
+      "won_revenue": 176961,
+      "won_deals": 105,
+      "win_rate": 0.6,
+      "achievement": 0.353922
+    },
+    {
+      "rep": "Wilburn Farren",
+      "target": 500000,
+      "won_revenue": 157640,
+      "won_deals": 55,
+      "win_rate": 0.6962025316455697,
+      "achievement": 0.31528
+    },
+    {
+      "rep": "Violet Mclelland",
+      "target": 500000,
+      "won_revenue": 123431,
+      "won_deals": 122,
+      "win_rate": 0.6321243523316062,
+      "achievement": 0.246862
+    },
+    {
+      "rep": "Carl Lin",
+      "target": 500000,
+      "won_revenue": 0,
+      "won_deals": 0,
+      "win_rate": null,
+      "achievement": 0.0
+    },
+    {
+      "rep": "Carol Thompson",
+      "target": 500000,
+      "won_revenue": 0,
+      "won_deals": 0,
+      "win_rate": null,
+      "achievement": 0.0
+    },
+    {
+      "rep": "Elizabeth Anderson",
+      "target": 500000,
+      "won_revenue": 0,
+      "won_deals": 0,
+      "win_rate": null,
+      "achievement": 0.0
+    },
+    {
+      "rep": "Mei-Mei Johns",
+      "target": 500000,
+      "won_revenue": 0,
+      "won_deals": 0,
+      "win_rate": null,
+      "achievement": 0.0
+    },
+    {
+      "rep": "Natalya Ivanova",
+      "target": 500000,
+      "won_revenue": 0,
+      "won_deals": 0,
+      "win_rate": null,
+      "achievement": 0.0
+    }
+  ],
+  "revenue_analysis": [
+    {
+      "month": "2017-03",
+      "won_revenue": 1134672,
+      "won_deals": 531,
+      "average_deal_size": 2136.858757062147
+    },
+    {
+      "month": "2017-04",
+      "won_revenue": 721932,
+      "won_deals": 285,
+      "average_deal_size": 2533.0947368421052
+    },
+    {
+      "month": "2017-05",
+      "won_revenue": 1025713,
+      "won_deals": 438,
+      "average_deal_size": 2341.810502283105
+    },
+    {
+      "month": "2017-06",
+      "won_revenue": 1338466,
+      "won_deals": 531,
+      "average_deal_size": 2520.6516007532955
+    },
+    {
+      "month": "2017-07",
+      "won_revenue": 696932,
+      "won_deals": 308,
+      "average_deal_size": 2262.7662337662337
+    },
+    {
+      "month": "2017-08",
+      "won_revenue": 1050059,
+      "won_deals": 446,
+      "average_deal_size": 2354.392376681614
+    },
+    {
+      "month": "2017-09",
+      "won_revenue": 1235264,
+      "won_deals": 503,
+      "average_deal_size": 2455.79324055666
+    },
+    {
+      "month": "2017-10",
+      "won_revenue": 731980,
+      "won_deals": 279,
+      "average_deal_size": 2623.5842293906812
+    },
+    {
+      "month": "2017-11",
+      "won_revenue": 938943,
+      "won_deals": 406,
+      "average_deal_size": 2312.667487684729
+    },
+    {
+      "month": "2017-12",
+      "won_revenue": 1131573,
+      "won_deals": 511,
+      "average_deal_size": 2214.4285714285716
+    }
+  ],
+  "regional_analysis": [
+    {
+      "region": "West",
+      "won_revenue": 3568647,
+      "open_opportunities": 748,
+      "open_pipeline": null
+    },
+    {
+      "region": "Central",
+      "won_revenue": 3346293,
+      "open_opportunities": 908,
+      "open_pipeline": null
+    },
+    {
+      "region": "East",
+      "won_revenue": 3090594,
+      "open_opportunities": 433,
+      "open_pipeline": null
+    }
+  ],
+  "compensation_analysis": [
+    {
+      "rep": "Darcel Schlecht",
+      "target": 500000,
+      "actual": 1153214,
+      "achievement": 2,
+      "commission_rate": 0.05,
+      "payout": 57660.700000000004,
+      "status": "Target achieved"
+    },
+    {
+      "rep": "Vicki Laflamme",
+      "target": 500000,
+      "actual": 478396,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 23919.800000000003,
+      "status": "Below target"
+    },
+    {
+      "rep": "Kary Hendrixson",
+      "target": 500000,
+      "actual": 454298,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 22714.9,
+      "status": "Below target"
+    },
+    {
+      "rep": "Cassey Cress",
+      "target": 500000,
+      "actual": 450489,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 22524.45,
+      "status": "Below target"
+    },
+    {
+      "rep": "Donn Cantrell",
+      "target": 500000,
+      "actual": 445860,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 22293.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Reed Clapper",
+      "target": 500000,
+      "actual": 438336,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 21916.800000000003,
+      "status": "Below target"
+    },
+    {
+      "rep": "Zane Levy",
+      "target": 500000,
+      "actual": 430068,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 21503.4,
+      "status": "Below target"
+    },
+    {
+      "rep": "Corliss Cosme",
+      "target": 500000,
+      "actual": 421036,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 21051.800000000003,
+      "status": "Below target"
+    },
+    {
+      "rep": "James Ascencio",
+      "target": 500000,
+      "actual": 413533,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 20676.65,
+      "status": "Below target"
+    },
+    {
+      "rep": "Daniell Hammack",
+      "target": 500000,
+      "actual": 364229,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 18211.45,
+      "status": "Below target"
+    },
+    {
+      "rep": "Maureen Marcano",
+      "target": 500000,
+      "actual": 350395,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 17519.75,
+      "status": "Below target"
+    },
+    {
+      "rep": "Gladys Colclough",
+      "target": 500000,
+      "actual": 345674,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 17283.7,
+      "status": "Below target"
+    },
+    {
+      "rep": "Markita Hansen",
+      "target": 500000,
+      "actual": 328792,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 16439.600000000002,
+      "status": "Below target"
+    },
+    {
+      "rep": "Kami Bicknell",
+      "target": 500000,
+      "actual": 316456,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 15822.800000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Marty Freudenburg",
+      "target": 500000,
+      "actual": 291195,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 14559.75,
+      "status": "Below target"
+    },
+    {
+      "rep": "Elease Gluck",
+      "target": 500000,
+      "actual": 289195,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 14459.75,
+      "status": "Below target"
+    },
+    {
+      "rep": "Jonathan Berthelot",
+      "target": 500000,
+      "actual": 284886,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 14244.300000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Anna Snelling",
+      "target": 500000,
+      "actual": 275056,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 13752.800000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Hayden Neloms",
+      "target": 500000,
+      "actual": 272111,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 13605.550000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Boris Faz",
+      "target": 500000,
+      "actual": 261631,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 13081.550000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Rosalina Dieter",
+      "target": 500000,
+      "actual": 235403,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 11770.150000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Rosie Papadopoulos",
+      "target": 500000,
+      "actual": 230169,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 11508.45,
+      "status": "Below target"
+    },
+    {
+      "rep": "Cecily Lampkin",
+      "target": 500000,
+      "actual": 229800,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 11490.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Moses Frase",
+      "target": 500000,
+      "actual": 207182,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 10359.1,
+      "status": "Below target"
+    },
+    {
+      "rep": "Garret Kinder",
+      "target": 500000,
+      "actual": 197773,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 9888.650000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Lajuana Vencill",
+      "target": 500000,
+      "actual": 194632,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 9731.6,
+      "status": "Below target"
+    },
+    {
+      "rep": "Versie Hillebrand",
+      "target": 500000,
+      "actual": 187693,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 9384.65,
+      "status": "Below target"
+    },
+    {
+      "rep": "Niesha Huffines",
+      "target": 500000,
+      "actual": 176961,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 8848.050000000001,
+      "status": "Below target"
+    },
+    {
+      "rep": "Wilburn Farren",
+      "target": 500000,
+      "actual": 157640,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 7882.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Violet Mclelland",
+      "target": 500000,
+      "actual": 123431,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 6171.55,
+      "status": "Below target"
+    },
+    {
+      "rep": "Mei-Mei Johns",
+      "target": 500000,
+      "actual": 0,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 0.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Elizabeth Anderson",
+      "target": 500000,
+      "actual": 0,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 0.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Natalya Ivanova",
+      "target": 500000,
+      "actual": 0,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 0.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Carol Thompson",
+      "target": 500000,
+      "actual": 0,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 0.0,
+      "status": "Below target"
+    },
+    {
+      "rep": "Carl Lin",
+      "target": 500000,
+      "actual": 0,
+      "achievement": 0,
+      "commission_rate": 0.05,
+      "payout": 0.0,
+      "status": "Below target"
+    }
+  ]
+}
