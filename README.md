@@ -1,6 +1,12 @@
 # Salesforce Revenue Operations AI
 **A portfolio project by Muthyala Mahesh Kumar**
 
+## Business data and document quality review
+
+**Skills demonstrated: PII screening, Data Privacy, Document Review, Data Analysis and Quality Assurance.** The new offline [privacy and data review tool](python/privacy_review.py) checks CRM completeness, duplicates, amounts/dates and possible PII, plus synthetic documents for text/category completeness, authorization and retention review. Reports omit source values and provide row-based findings, recommendations and structured human feedback. All training exports remain held; no document is sent to an AI service by this tool.
+
+**[Run the reviewer, inspect requirement coverage, and read the interview introduction](documentation/privacy-data-review.md).** Verified against all 8,800 fictional CRM rows and five synthetic documents. This is portfolio implementation evidence; PII screening is incomplete and does not establish legal compliance or professional sensitive-data experience. For complementary access-control/encryption evidence, see [CampusGuard](https://github.com/muthyalamaheshkumar8-debug/cloud-student-data-protection).
+
 [Open live dashboard](https://mahesh-revenue-operations.r58144805.chatgpt.site/) · [Watch the sample walkthrough](demo/revenue-operations-walkthrough.mp4)
 
 ![Executive dashboard](demo/dashboard-preview.jpg)

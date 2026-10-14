@@ -1,0 +1,82 @@
+{
+  "rule_version": "1.0.0",
+  "profile": "documents",
+  "as_of": "2026-10-14",
+  "source_sha256": "73b42479c945f138696167044ae4ea5e8f09c1fc09020db490c7c5b7c3b7a5e9",
+  "rows_reviewed": 5,
+  "rows_with_findings": 4,
+  "issue_count": 7,
+  "counts_by_code": {
+    "consent_unconfirmed": 1,
+    "duplicate_id": 1,
+    "missing_value": 1,
+    "out_of_scope": 1,
+    "pii_candidate": 2,
+    "retention_review": 1
+  },
+  "sample_limit": 2000,
+  "sample_offset": 0,
+  "samples_truncated": false,
+  "scope_sha256": "c898379ea6238ecad97b351de0977c6ff8b1279211ade3c6363a70b87b03c659",
+  "findings": [
+    {
+      "issue_id": "95dceadf69b8d8ad639c2c81",
+      "row": 2,
+      "code": "pii_candidate",
+      "field": "document_text:email",
+      "recommendation": "Restrict access; inspect the candidate locally and redact if required."
+    },
+    {
+      "issue_id": "ad6c7c499f4532681acc4b89",
+      "row": 2,
+      "code": "pii_candidate",
+      "field": "document_text:phone",
+      "recommendation": "Restrict access; inspect the candidate locally and redact if required."
+    },
+    {
+      "issue_id": "02441e3fd7d89e7cc712717d",
+      "row": 3,
+      "code": "consent_unconfirmed",
+      "field": "consent",
+      "recommendation": "Hold the document until its processing authorization is verified."
+    },
+    {
+      "issue_id": "7d465b66622a8d476f5bf019",
+      "row": 3,
+      "code": "retention_review",
+      "field": "retention_date",
+      "recommendation": "Ask the responsible owner to confirm retention or approved disposal."
+    },
+    {
+      "issue_id": "8f1da0acc3c84beefd99900d",
+      "row": 4,
+      "code": "missing_value",
+      "field": "document_text",
+      "recommendation": "Ask the data owner to verify the missing field; do not guess a value."
+    },
+    {
+      "issue_id": "9ed60f93e805e4cc449a3793",
+      "row": 5,
+      "code": "duplicate_id",
+      "field": "document_id",
+      "recommendation": "Compare duplicate source records privately and obtain an owner decision."
+    },
+    {
+      "issue_id": "eee777b850d4afb9f894ad88",
+      "row": 5,
+      "code": "out_of_scope",
+      "field": "category",
+      "recommendation": "Ask the assignment owner whether this document belongs in the review batch."
+    }
+  ],
+  "review_status": "needs_human_review",
+  "training_export": "held",
+  "external_model_called": false,
+  "limitations": [
+    "Pattern screening is incomplete and may produce false positives.",
+    "Names, addresses, context, authorization and legal compliance require human review.",
+    "Accuracy requires comparison with authorized source evidence; rules alone cannot establish truth.",
+    "Source rows are never changed. Findings require owner verification and a rerun."
+  ],
+  "report_id": "46c1de226db79c67445d854844e64f544f9deba92fd4c8ebb57df429d1a99c06"
+}

@@ -1,4 +1,7 @@
 # Open the updated project
+
+For **PII, Data Privacy, Document Review, Data Analysis and Quality Assurance**, start with [Privacy-aware data and document QA](privacy-data-review.md). It includes the runnable offline reviewer, synthetic document examples, requirements matrix, source-verification procedure, structured feedback, resume wording and interview introduction. The reviewer is a separate Python command; the published dashboard has not been changed for this addition.
+
 1. Extract the ZIP. Open `dashboard.html` in a modern browser for a portable local dashboard with all 13 views and the full bundled snapshot. No installation is needed for local UI practice.
 2. Open **Integrations** to see all 16 requirement statuses and their next verification steps.
 3. Open **Sales enablement** for the knowledge repository and assessments. Use search/audience filters; export a practice record after completing a course.

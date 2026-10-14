@@ -1,0 +1,6 @@
+document_id,document_text,category,consent,retention_date
+DOC-001,"Fictional purchase summary: 12 units received and reconciled.",invoice,true,2030-12-31
+DOC-002,"Synthetic reviewer contact: test.person@example.invalid; phone +1 (202) 555-0144.",invoice,true,2030-12-31
+DOC-003,"Fictional record awaiting authorization.",invoice,false,2020-01-01
+DOC-004,,invoice,true,2030-12-31
+DOC-004,"Fictional duplicate with a category outside the assignment.",advertisement,true,2030-12-31
